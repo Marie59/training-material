@@ -1,0 +1,53 @@
+{
+  "layout": "tutorial_hands_on",
+  "title": "M. tuberculosis Variant Analysis",
+  "zenodo_link": "https://doi.org/10.5281/zenodo.3496437",
+  "tags": [
+    "prokaryote"
+  ],
+  "questions": [
+    "How do we detect differences between a set of reads from *M. tuberculosis* (Mtb) and the Mtb reference genome"
+  ],
+  "objectives": [
+    "How should we filter those variants",
+    "How can we predict drug resistance from those variants",
+    "How do we annotate those variants"
+  ],
+  "time_estimation": "2h",
+  "level": "Intermediate",
+  "key_points": [
+    "variants in *M. tuberculosis* sequencing data can be discovered using common microbial bioinformatics tools",
+    "it is not enough to just call variants, variant calling involves multiple quality control steps",
+    "the choice of reference genome and some quality control procedures are species specific, and require knowledge of the organism in question"
+  ],
+  "contributors": [
+    {
+      "name": "Peter van Heusden",
+      "twitter": "pvanheus",
+      "orcid": "0000-0001-6553-5274",
+      "joined": "2017-09",
+      "bio": "Research at the South African National Bioinformatics Institute",
+      "id": "pvanheus",
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/pvanheus.json"
+    },
+    {
+      "name": "Simon Gladman",
+      "email": "simon.gladman@unimelb.edu.au",
+      "joined": "2017-09",
+      "elixir_node": "au",
+      "orcid": "0000-0002-6100-4385",
+      "in_memoriam": "<a href=\"https://www.biocommons.org.au/news/simon-gladman\">Simon Gladman, system administrator of UseGalaxy.org.au, passed away on November 26, 2022</a>\n\n<a href=\"https://galaxyproject.org/news/2022-11-28-simon-gladman/\">He was a fantastic teacher, tutorial author, system administrator, and warm and welcoming friend.</a> He contributed heavily to the Galaxy Training Network and especially the Galaxy Administration community over the years, we will miss him dearly. The GTN and GAT would not be what they are today, without him.\n\n“Have I told you about my watch?”",
+      "id": "slugger70",
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/slugger70.json"
+    },
+    {
+      "name": "Thoba Lose",
+      "joined": "2019-11",
+      "id": "thobalose",
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/thobalose.json"
+    }
+  ],
+  "url": "/topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html",
+  "topic_name": "variant-analysis",
+  "tutorial_name": "tb-variant-analysis"
+}
