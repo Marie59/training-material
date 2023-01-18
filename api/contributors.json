@@ -441,8 +441,8 @@
   {
     "name": "David Salgado",
     "joined": "2022-10",
-    "id": "davidsalgado",
-    "url": "https://training.galaxyproject.org/training-material/api/contributors/davidsalgado.json"
+    "id": "d-salgado",
+    "url": "https://training.galaxyproject.org/training-material/api/contributors/d-salgado.json"
   },
   {
     "name": "Daniela Butano",
@@ -480,6 +480,12 @@
     "joined": "2017-09",
     "id": "delphine-l",
     "url": "https://training.galaxyproject.org/training-material/api/contributors/delphine-l.json"
+  },
+  {
+    "name": "Deepti Varshney",
+    "joined": "2022-12",
+    "id": "deeptivarshney",
+    "url": "https://training.galaxyproject.org/training-material/api/contributors/deeptivarshney.json"
   },
   {
     "name": "Desmond Jasper",
@@ -767,6 +773,14 @@
     "elixir_node": "ch",
     "id": "hrhotz",
     "url": "https://training.galaxyproject.org/training-material/api/contributors/hrhotz.json"
+  },
+  {
+    "name": "Graeme Tyson",
+    "email": "grt67@open.ac.uk",
+    "orcid": "0000-0002-1748-2806",
+    "joined": "2022-09",
+    "id": "hrukkudyr",
+    "url": "https://training.galaxyproject.org/training-material/api/contributors/hrukkudyr.json"
   },
   {
     "name": "Hui Tang",
@@ -1141,6 +1155,8 @@
   },
   {
     "name": "Marisa Loach",
+    "orcid": "0000-0001-6979-6930",
+    "twitter": "Marisa_Loach",
     "email": "marisa.loach@open.ac.uk",
     "joined": "2022-10",
     "id": "MarisaJL",
