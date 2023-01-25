@@ -24,7 +24,7 @@
 <meta name="DC.type" content="text" />
 <meta name="DC.title" content="A Docker-based interactive Jupyterlab powered by GPU for artificial intelligence in Galaxy" />
 <meta name="DC.publisher" content="Galaxy Training Network" />
-<meta name="DC.date" content="2023-01-17 11:14:43 +0000" />
+<meta name="DC.date" content="2023-01-24 14:21:57 +0000" />
 <meta name="DC.creator" content="Anup Kumar" />
 
         
@@ -271,7 +271,7 @@
     "name": "Galaxy Training Network",
     "url": "https://galaxyproject.org/teach/gtn/"
   },
-  "dateModified": "2023-01-17 11:14:43 +0000",
+  "dateModified": "2023-01-24 14:21:57 +0000",
   "discussionUrl": "https://gitter.im/Galaxy-Training-Network/Lobby",
   "headline": "A Docker-based interactive Jupyterlab powered by GPU for artificial intelligence in Galaxy",
   "interactivityType": "mixed",
@@ -1097,7 +1097,7 @@
         </ul>
         
 
-        <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Jan 17, 2023 </div>
+        <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Jan 24, 2023 </div>
         <div><strong><i class="fas fa-balance-scale" aria-hidden="true"></i> License:</strong>
             
             <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Tutorial Content is licensed under Creative Commons Attribution 4.0 International License</a>
@@ -1148,7 +1148,7 @@
 </blockquote>
 
 <h1 id="introduction">Introduction</h1>
-<p><a href="https://jupyterlab.readthedocs.io/en/stable/">Jupyterlab</a> is a popular integrated development environment (IDE) for a variety of tasks in data science such as prototyping analyses, creating meaningful plots, data manipulation and preprocessing. Python is one of the most used languages in such an environment. Given the usefulness of Jupyterlab, more importantly in online platforms, a robust <a href="https://usegalaxy.eu/tool_runner?tool_id=interactive_tool_ml_jupyter_notebook">Jupyterlab notebook application</a> has been developed that is powered by GPU acceleration and contains numerous packages such as Pandas, Numpy, Scipy, <a href="https://scikit-learn.org/">Scikit-learn</a>, <a href="https://www.tensorflow.org/">Tensorflow</a>, <a href="https://onnx.ai/">ONNX</a> to support modern data science projects. It has been developed as an interactive <span class="notranslate">Galaxy</span> tool that runs on an isolated <a href="https://github.com/anuprulez/ml-jupyter-notebook">docker container</a>. The docker container has been built using <a href="https://hub.docker.com/layers/nvidia/cuda/11.8.0-cudnn8-runtime-ubuntu22.04/images/sha256-08aed54a213b52e9cb658760b6d985db2f4c5f7e8f11ac45ec66b5c746237823?context=explore">nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04</a> as the base container. Moreover, a <span class="notranslate">Galaxy</span> <a href="https://github.com/bgruening/galaxytools/pull/1157">tool</a> ( <code class="language-plaintext highlighter-rouge">run_jupyter_job</code>) can be executed using <a href="https://bioblend.readthedocs.io/">Bioblend</a> which uses <span class="notranslate">Galaxy</span>’s remote job handling for long-running machine learning and deep learning training. The training happens remotely on a <span class="notranslate">Galaxy</span> cluster and the outcome datasets such as the trained models, tabular files and so on are saved in a <span class="notranslate">Galaxy</span> history for further use.</p>
+<p><a href="https://jupyterlab.readthedocs.io/en/stable/">Jupyterlab</a> is a popular integrated development environment (IDE) for a variety of tasks in data science such as prototyping analyses, creating meaningful plots, data manipulation and preprocessing. Python is one of the most used languages in such an environment. Given the usefulness of Jupyterlab, more importantly in online platforms, a robust <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_ml_jupyter_notebook">Jupyterlab notebook application</a> has been developed that is powered by GPU acceleration and contains numerous packages such as Pandas, Numpy, Scipy, <a href="https://scikit-learn.org/">Scikit-learn</a>, <a href="https://www.tensorflow.org/">Tensorflow</a>, <a href="https://onnx.ai/">ONNX</a> to support modern data science projects. It has been developed as an interactive <span class="notranslate">Galaxy</span> tool that runs on an isolated <a href="https://github.com/anuprulez/ml-jupyter-notebook">docker container</a>. The docker container has been built using <a href="https://hub.docker.com/layers/anupkumar/docker-ml-jupyterlab/galaxy-integration-0.2/images/sha256-e2d7e28a2f975523db0f5ac29c2e2ce3c7a35b061072098ad388d5b42ee86fba?context=repo">nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu20.04</a> as the base container. Moreover, a <span class="notranslate">Galaxy</span> <a href="https://github.com/bgruening/galaxytools/pull/1157">tool</a> ( <code class="language-plaintext highlighter-rouge">run_jupyter_job</code>) can be executed using <a href="https://bioblend.readthedocs.io/">Bioblend</a> which uses <span class="notranslate">Galaxy</span>’s remote job handling for long-running machine learning and deep learning training. The training happens remotely on a <span class="notranslate">Galaxy</span> cluster and the outcome datasets such as the trained models, tabular files and so on are saved in a <span class="notranslate">Galaxy</span> history for further use.</p>
 
 <h2 id="features-of-jupyterlab">Features of Jupyterlab</h2>
 <p><a href="https://jupyterlab.readthedocs.io/en/stable/">Jupyterlab</a> notebook has been augmented with several useful features and together they make it ready-to-use for quick prototyping and end-to-end artificial intelligence (AI) projects. Being able to <strong>serve online</strong> makes it convenient to share it with other researchers and users. Its features can be broadly classified into two categories - features that have been added solely as Python packages and those that have been added also as Python packages but have their respective user interfaces. We will briefly discuss these features and later, we will use some of those for building and using AI models.</p>
@@ -1200,7 +1200,7 @@
     <li><span class="tool" data-tool="interactive_tool_ml_jupyter_notebook" title="Tested with interactive_tool_ml_jupyter_notebook"><strong>GPU enabled Interactive Jupyter Notebook for Machine Learning</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: interactive_tool_ml_jupyter_notebook</span></span>
       <ul>
         <li><em>“Do you already have a notebook?”</em>: <code class="language-plaintext highlighter-rouge">Start with default notebooks</code></li>
-        <li>Click <em>“Execute”</em></li>
+        <li>Click <em>“Run Tool”</em></li>
       </ul>
     </li>
   </ul>
@@ -1416,7 +1416,7 @@ https://zenodo.org/record/7534061/files/test_rows_labels.csv
         <li><em>“Filter *”</em> : Select <code class="language-plaintext highlighter-rouge">train_rows</code></li>
         <li><em>“With following condition”</em> :<code class="language-plaintext highlighter-rouge">c3==0</code></li>
         <li><em>“Number of header lines to skip”</em>: <code class="language-plaintext highlighter-rouge">1</code></li>
-        <li>Click <em>“Execute”</em></li>
+        <li>Click <em>“Run Tool”</em></li>
       </ul>
     </li>
   </ul>
@@ -1480,7 +1480,7 @@ https://zenodo.org/record/7534061/files/test_rows_labels.csv
         <li><em>“Cut columns”</em> : <code class="language-plaintext highlighter-rouge">c1</code></li>
         <li><em>“Delimited by”</em> : <code class="language-plaintext highlighter-rouge">Comma</code></li>
         <li><em>“From”</em>: Choose dataset collection <code class="language-plaintext highlighter-rouge">GPU JupyterLab notebook output collection</code></li>
-        <li>Click <em>“Execute”</em></li>
+        <li>Click <em>“Run Tool”</em></li>
       </ul>
     </li>
   </ul>
@@ -1590,19 +1590,21 @@ day = ""
 url = "\url{https://training.galaxyproject.org/training-material/topics/statistics/tutorials/gpu_jupyter_lab/tutorial.html}",
 note = "[Online; accessed TODAY]"
 }
-@article{Batut_2018,
-    doi = {10.1016/j.cels.2018.05.012},
-    url = {https://doi.org/10.1016%2Fj.cels.2018.05.012},
-    year = 2018,
-    month = {jun},
-    publisher = {Elsevier {BV}},
-    volume = {6},
-    number = {6},
-    pages = {752--758.e1},
-    author = {B{\'{e}}r{\'{e}}nice Batut and Saskia Hiltemann and Andrea Bagnacani and Dannon Baker and Vivek Bhardwaj and Clemens Blank and Anthony Bretaudeau and Loraine Brillet-Gu{\'{e}}guen and Martin {\v{C}}ech and John Chilton and Dave Clements and Olivia Doppelt-Azeroual and Anika Erxleben and Mallory Ann Freeberg and Simon Gladman and Youri Hoogstrate and Hans-Rudolf Hotz and Torsten Houwaart and Pratik Jagtap and Delphine Larivi{\`{e}}re and Gildas Le Corguill{\'{e}} and Thomas Manke and Fabien Mareuil and Fidel Ram{\'{\i}}rez and Devon Ryan and Florian Christoph Sigloch and Nicola Soranzo and Joachim Wolff and Pavankumar Videm and Markus Wolfien and Aisanjiang Wubuli and Dilmurat Yusuf and James Taylor and Rolf Backofen and Anton Nekrutenko and Björn Grüning},
-    title = {Community-Driven Data Analysis Training for Biology},
-    journal = {Cell Systems}
-}</code>
+@article{Hiltemann_2023,
+	doi = {10.1371/journal.pcbi.1010752},
+	url = {https://doi.org/10.1371%2Fjournal.pcbi.1010752},
+	year = 2023,
+	month = {jan},
+	publisher = {Public Library of Science ({PLoS})},
+	volume = {19},
+	number = {1},
+	pages = {e1010752},
+	author = {Saskia Hiltemann and Helena Rasche and Simon Gladman and Hans-Rudolf Hotz and Delphine Larivi{\`{e}}re and Daniel Blankenberg and Pratik D. Jagtap and Thomas Wollmann and Anthony Bretaudeau and Nadia Gou{\'{e}} and Timothy J. Griffin and Coline Royaux and Yvan Le Bras and Subina Mehta and Anna Syme and Frederik Coppens and Bert Droesbeke and Nicola Soranzo and Wendi Bacon and Fotis Psomopoulos and Crist{\'{o}}bal Gallardo-Alba and John Davis and Melanie Christine Föll and Matthias Fahrner and Maria A. Doyle and Beatriz Serrano-Solano and Anne Claire Fouilloux and Peter van Heusden and Wolfgang Maier and Dave Clements and Florian Heyl and Björn Grüning and B{\'{e}}r{\'{e}}nice Batut and},
+	editor = {Francis Ouellette},
+	title = {Galaxy Training: A powerful framework for teaching!},
+	journal = {PLoS Comput Biol} Computational Biology}
+}
+</code>
                    </pre></div></div>
                    </p>
                 </blockquote>

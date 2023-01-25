@@ -294,6 +294,10 @@
     
 
     
+    
+    
+
+    
       
         
 
@@ -598,6 +602,10 @@
     
 
     
+    
+    
+
+    
       
         
 
@@ -792,6 +800,10 @@
          </tr>
          
        
+    
+    
+
+    
     
     
 
@@ -1041,6 +1053,10 @@
 
     
     
+    
+
+    
+    
   </tbody>
 </table>
 
@@ -1073,6 +1089,10 @@
 
   
   
+    
+
+    
+    
     
 
     
@@ -2132,6 +2152,14 @@
     
 
     
+    
+    
+
+    
+    
+    
+
+    
       
         
 
@@ -2668,6 +2696,10 @@
     
 
     
+    
+    
+
+    
       
         
 
@@ -2897,7 +2929,7 @@
             
             <a href="/training-material/search?query=single-cell" class="label label-default tutorial_tag" id="single-cell" style="background-color: hsl(179, 80.0%, 85%); color: #333; border: 1px solid hsl(179, 80.0%, 45%)" title="Click to show all tutorials tagged single-cell">single-cell</a>
             
-            <a href="/training-material/search?query=trajectory-analysis" class="label label-default tutorial_tag" id="trajectory-analysis" style="background-color: hsl(150, 80.0%, 85%); color: #333; border: 1px solid hsl(150, 80.0%, 45%)" title="Click to show all tutorials tagged trajectory-analysis">trajectory-analysis</a>
+            <a href="/training-material/search?query=10x" class="label label-default tutorial_tag" id="10x" style="background-color: hsl(3, 80.0%, 85%); color: #333; border: 1px solid hsl(3, 80.0%, 45%)" title="Click to show all tutorials tagged 10x">10x</a>
             
             <a href="/training-material/search?query=paper-replication" class="label label-default tutorial_tag" id="paper-replication" style="background-color: hsl(190, 80.0%, 85%); color: #333; border: 1px solid hsl(190, 80.0%, 45%)" title="Click to show all tutorials tagged paper-replication">paper-replication</a>
             
@@ -3483,6 +3515,10 @@
 
   
   
+    
+
+    
+    
     
 
     
@@ -4494,6 +4530,1070 @@
     
 
     
+      
+        
+
+        <tr>
+          <td class="tutorial_title">
+            
+            
+            <a href="/training-material/topics/single-cell/tutorials/bulk-music-2-preparescref/tutorial.html">
+                Creating the single-cell RNA-seq reference dataset for deconvolution
+            </a>
+            
+
+
+          <div class="">
+          
+          
+            
+            <a href="/training-material/search?query=single-cell" class="label label-default tutorial_tag" id="single-cell" style="background-color: hsl(179, 80.0%, 85%); color: #333; border: 1px solid hsl(179, 80.0%, 45%)" title="Click to show all tutorials tagged single-cell">single-cell</a>
+            
+            <a href="/training-material/search?query=human" class="label label-default tutorial_tag" id="human" style="background-color: hsl(16, 80.0%, 85%); color: #333; border: 1px solid hsl(16, 80.0%, 45%)" title="Click to show all tutorials tagged human">human</a>
+            
+            <a href="/training-material/search?query=deconvolution" class="label label-default tutorial_tag" id="deconvolution" style="background-color: hsl(119, 80.0%, 85%); color: #333; border: 1px solid hsl(119, 80.0%, 45%)" title="Click to show all tutorials tagged deconvolution">deconvolution</a>
+            
+            <a href="/training-material/search?query=bulk" class="label label-default tutorial_tag" id="bulk" style="background-color: hsl(119, 80.0%, 85%); color: #333; border: 1px solid hsl(119, 80.0%, 45%)" title="Click to show all tutorials tagged bulk">bulk</a>
+            
+            <a href="/training-material/search?query=transcriptomics" class="label label-default tutorial_tag" id="transcriptomics" style="background-color: hsl(78, 80.0%, 85%); color: #333; border: 1px solid hsl(78, 80.0%, 45%)" title="Click to show all tutorials tagged transcriptomics">transcriptomics</a>
+            
+          
+          </div>
+
+          <div class="duplicate">
+          
+            <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
+            
+
+
+    </span>
+
+<!-- video slides -->
+
+
+</span>
+</span>
+
+            
+    <span class="btn-group">
+        <a href="/training-material/topics/single-cell/tutorials/bulk-music-2-preparescref/tutorial.html" class="btn btn-default" title="Follow the tutorial">
+            <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
+        </a>
+        <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Follow the tutorial in a different language">
+            <span class="sr-only">Toggle Dropdown</span>
+        </a>
+        <ul class="dropdown-menu">
+        
+        
+         <div class="dropdown-item"><strong>Automatic translations</strong></div>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-2-preparescref%2Ftutorial.html&edit-text=&act=url" title="">
+                Français
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-2-preparescref%2Ftutorial.html&edit-text=&act=url" title="">
+                日本語
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-2-preparescref%2Ftutorial.html&edit-text=&act=url" title="">
+                Español
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-2-preparescref%2Ftutorial.html&edit-text=&act=url" title="">
+                Português
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-2-preparescref%2Ftutorial.html&edit-text=&act=url" title="">
+                العربية
+            </a>
+        
+        <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-2-preparescref%2Ftutorial.html&edit-text=&act=url" title="">
+            More Languages
+        </a>
+        </ul>
+    </span>
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+            
+
+
+
+            
+
+
+    <a class="btn btn-default topic-icon" href="/training-material/topics/single-cell/tutorials/bulk-music-2-preparescref/workflows/" title="Workflows" alt="Creating the single-cell RNA-seq reference dataset for deconvolution workflows">
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
+    </a>
+
+
+            
+              
+
+
+    <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
+        <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
+    </a>
+    <ul class="dropdown-menu">
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
+            Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://humancellatlas.usegalaxy.eu/" title="Human Cell Atlas">
+            Human Cell Atlas
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
+        </a>
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.eu" title="UseGalaxy.eu">
+            UseGalaxy.eu
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    </ul>
+
+
+
+            
+            </div>
+          
+          </div>
+
+          </td>
+          <td> 
+
+
+    </span>
+
+<!-- video slides -->
+
+
+</span>
+</span>
+ </td>
+          <td> 
+    <span class="btn-group">
+        <a href="/training-material/topics/single-cell/tutorials/bulk-music-2-preparescref/tutorial.html" class="btn btn-default" title="Follow the tutorial">
+            <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
+        </a>
+        <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Follow the tutorial in a different language">
+            <span class="sr-only">Toggle Dropdown</span>
+        </a>
+        <ul class="dropdown-menu">
+        
+        
+         <div class="dropdown-item"><strong>Automatic translations</strong></div>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-2-preparescref%2Ftutorial.html&edit-text=&act=url" title="">
+                Français
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-2-preparescref%2Ftutorial.html&edit-text=&act=url" title="">
+                日本語
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-2-preparescref%2Ftutorial.html&edit-text=&act=url" title="">
+                Español
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-2-preparescref%2Ftutorial.html&edit-text=&act=url" title="">
+                Português
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-2-preparescref%2Ftutorial.html&edit-text=&act=url" title="">
+                العربية
+            </a>
+        
+        <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-2-preparescref%2Ftutorial.html&edit-text=&act=url" title="">
+            More Languages
+        </a>
+        </ul>
+    </span>
+
+ </td>
+
+          
+            <td> 
+
+
+ </td>
+            <td> 
+
+
+    <a class="btn btn-default topic-icon" href="/training-material/topics/single-cell/tutorials/bulk-music-2-preparescref/workflows/" title="Workflows" alt="Creating the single-cell RNA-seq reference dataset for deconvolution workflows">
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
+    </a>
+
+ </td>
+            <td> 
+ </td>
+          
+          
+            <td> 
+
+
+    <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
+        <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
+    </a>
+    <ul class="dropdown-menu">
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
+            Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://humancellatlas.usegalaxy.eu/" title="Human Cell Atlas">
+            Human Cell Atlas
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
+        </a>
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.eu" title="UseGalaxy.eu">
+            UseGalaxy.eu
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    </ul>
+
+
+ </td>
+          
+         </tr>
+         
+       
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+      
+        
+
+        <tr>
+          <td class="tutorial_title">
+            
+            
+            <a href="/training-material/topics/single-cell/tutorials/bulk-music-3-preparebulk/tutorial.html">
+                Creating the bulk RNA-seq dataset for deconvolution
+            </a>
+            
+
+
+          <div class="">
+          
+          
+            
+            <a href="/training-material/search?query=single-cell" class="label label-default tutorial_tag" id="single-cell" style="background-color: hsl(179, 80.0%, 85%); color: #333; border: 1px solid hsl(179, 80.0%, 45%)" title="Click to show all tutorials tagged single-cell">single-cell</a>
+            
+            <a href="/training-material/search?query=human" class="label label-default tutorial_tag" id="human" style="background-color: hsl(16, 80.0%, 85%); color: #333; border: 1px solid hsl(16, 80.0%, 45%)" title="Click to show all tutorials tagged human">human</a>
+            
+            <a href="/training-material/search?query=deconvolution" class="label label-default tutorial_tag" id="deconvolution" style="background-color: hsl(119, 80.0%, 85%); color: #333; border: 1px solid hsl(119, 80.0%, 45%)" title="Click to show all tutorials tagged deconvolution">deconvolution</a>
+            
+            <a href="/training-material/search?query=bulk" class="label label-default tutorial_tag" id="bulk" style="background-color: hsl(119, 80.0%, 85%); color: #333; border: 1px solid hsl(119, 80.0%, 45%)" title="Click to show all tutorials tagged bulk">bulk</a>
+            
+            <a href="/training-material/search?query=transcriptomics" class="label label-default tutorial_tag" id="transcriptomics" style="background-color: hsl(78, 80.0%, 85%); color: #333; border: 1px solid hsl(78, 80.0%, 45%)" title="Click to show all tutorials tagged transcriptomics">transcriptomics</a>
+            
+          
+          </div>
+
+          <div class="duplicate">
+          
+            <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
+            
+
+
+    </span>
+
+<!-- video slides -->
+
+
+</span>
+</span>
+
+            
+    <span class="btn-group">
+        <a href="/training-material/topics/single-cell/tutorials/bulk-music-3-preparebulk/tutorial.html" class="btn btn-default" title="Follow the tutorial">
+            <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
+        </a>
+        <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Follow the tutorial in a different language">
+            <span class="sr-only">Toggle Dropdown</span>
+        </a>
+        <ul class="dropdown-menu">
+        
+        
+         <div class="dropdown-item"><strong>Automatic translations</strong></div>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-3-preparebulk%2Ftutorial.html&edit-text=&act=url" title="">
+                Français
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-3-preparebulk%2Ftutorial.html&edit-text=&act=url" title="">
+                日本語
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-3-preparebulk%2Ftutorial.html&edit-text=&act=url" title="">
+                Español
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-3-preparebulk%2Ftutorial.html&edit-text=&act=url" title="">
+                Português
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-3-preparebulk%2Ftutorial.html&edit-text=&act=url" title="">
+                العربية
+            </a>
+        
+        <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-3-preparebulk%2Ftutorial.html&edit-text=&act=url" title="">
+            More Languages
+        </a>
+        </ul>
+    </span>
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+            
+
+
+<a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://zenodo.org/record/7319173">
+    <i class="far fa-copy" aria-hidden="true"></i>
+</a>
+
+
+            
+
+
+    <a class="btn btn-default topic-icon" href="/training-material/topics/single-cell/tutorials/bulk-music-3-preparebulk/workflows/" title="Workflows" alt="Creating the bulk RNA-seq dataset for deconvolution workflows">
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
+    </a>
+
+
+            
+              
+
+
+    <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
+        <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
+    </a>
+    <ul class="dropdown-menu">
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
+            Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
+            Galaxy@GenOuest
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://humancellatlas.usegalaxy.eu/" title="Human Cell Atlas">
+            Human Cell Atlas
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
+            Plant Anaylsis Workbench
+        </a>
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://singlecell.usegalaxy.eu/" title="Single Cell Omics workbench">
+            Single Cell Omics workbench
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
+        </a>
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.eu" title="UseGalaxy.eu">
+            UseGalaxy.eu
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    </ul>
+
+
+
+            
+            </div>
+          
+          </div>
+
+          </td>
+          <td> 
+
+
+    </span>
+
+<!-- video slides -->
+
+
+</span>
+</span>
+ </td>
+          <td> 
+    <span class="btn-group">
+        <a href="/training-material/topics/single-cell/tutorials/bulk-music-3-preparebulk/tutorial.html" class="btn btn-default" title="Follow the tutorial">
+            <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
+        </a>
+        <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Follow the tutorial in a different language">
+            <span class="sr-only">Toggle Dropdown</span>
+        </a>
+        <ul class="dropdown-menu">
+        
+        
+         <div class="dropdown-item"><strong>Automatic translations</strong></div>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-3-preparebulk%2Ftutorial.html&edit-text=&act=url" title="">
+                Français
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-3-preparebulk%2Ftutorial.html&edit-text=&act=url" title="">
+                日本語
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-3-preparebulk%2Ftutorial.html&edit-text=&act=url" title="">
+                Español
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-3-preparebulk%2Ftutorial.html&edit-text=&act=url" title="">
+                Português
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-3-preparebulk%2Ftutorial.html&edit-text=&act=url" title="">
+                العربية
+            </a>
+        
+        <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-3-preparebulk%2Ftutorial.html&edit-text=&act=url" title="">
+            More Languages
+        </a>
+        </ul>
+    </span>
+
+ </td>
+
+          
+            <td> 
+
+
+<a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://zenodo.org/record/7319173">
+    <i class="far fa-copy" aria-hidden="true"></i>
+</a>
+
+ </td>
+            <td> 
+
+
+    <a class="btn btn-default topic-icon" href="/training-material/topics/single-cell/tutorials/bulk-music-3-preparebulk/workflows/" title="Workflows" alt="Creating the bulk RNA-seq dataset for deconvolution workflows">
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
+    </a>
+
+ </td>
+            <td> 
+ </td>
+          
+          
+            <td> 
+
+
+    <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
+        <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
+    </a>
+    <ul class="dropdown-menu">
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
+            Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
+            Galaxy@GenOuest
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://humancellatlas.usegalaxy.eu/" title="Human Cell Atlas">
+            Human Cell Atlas
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
+            Plant Anaylsis Workbench
+        </a>
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://singlecell.usegalaxy.eu/" title="Single Cell Omics workbench">
+            Single Cell Omics workbench
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
+        </a>
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.eu" title="UseGalaxy.eu">
+            UseGalaxy.eu
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    </ul>
+
+
+ </td>
+          
+         </tr>
+         
+       
     
     
 
@@ -4514,6 +5614,550 @@
     
 
     
+      
+        
+
+        <tr>
+          <td class="tutorial_title">
+            
+            
+            <a href="/training-material/topics/single-cell/tutorials/bulk-music-4-compare/tutorial.html">
+                Comparing inferred cell compositions using MuSiC deconvolution
+            </a>
+            
+
+
+          <div class="">
+          
+          
+            
+            <a href="/training-material/search?query=single-cell" class="label label-default tutorial_tag" id="single-cell" style="background-color: hsl(179, 80.0%, 85%); color: #333; border: 1px solid hsl(179, 80.0%, 45%)" title="Click to show all tutorials tagged single-cell">single-cell</a>
+            
+            <a href="/training-material/search?query=mouse" class="label label-default tutorial_tag" id="mouse" style="background-color: hsl(164, 80.0%, 85%); color: #333; border: 1px solid hsl(164, 80.0%, 45%)" title="Click to show all tutorials tagged mouse">mouse</a>
+            
+            <a href="/training-material/search?query=human" class="label label-default tutorial_tag" id="human" style="background-color: hsl(16, 80.0%, 85%); color: #333; border: 1px solid hsl(16, 80.0%, 45%)" title="Click to show all tutorials tagged human">human</a>
+            
+            <a href="/training-material/search?query=deconvolution" class="label label-default tutorial_tag" id="deconvolution" style="background-color: hsl(119, 80.0%, 85%); color: #333; border: 1px solid hsl(119, 80.0%, 45%)" title="Click to show all tutorials tagged deconvolution">deconvolution</a>
+            
+            <a href="/training-material/search?query=bulk" class="label label-default tutorial_tag" id="bulk" style="background-color: hsl(119, 80.0%, 85%); color: #333; border: 1px solid hsl(119, 80.0%, 45%)" title="Click to show all tutorials tagged bulk">bulk</a>
+            
+            <a href="/training-material/search?query=transcriptomics" class="label label-default tutorial_tag" id="transcriptomics" style="background-color: hsl(78, 80.0%, 85%); color: #333; border: 1px solid hsl(78, 80.0%, 45%)" title="Click to show all tutorials tagged transcriptomics">transcriptomics</a>
+            
+          
+          </div>
+
+          <div class="duplicate">
+          
+            <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
+            
+
+
+    </span>
+
+<!-- video slides -->
+
+
+</span>
+</span>
+
+            
+    <span class="btn-group">
+        <a href="/training-material/topics/single-cell/tutorials/bulk-music-4-compare/tutorial.html" class="btn btn-default" title="Follow the tutorial">
+            <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
+        </a>
+        <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Follow the tutorial in a different language">
+            <span class="sr-only">Toggle Dropdown</span>
+        </a>
+        <ul class="dropdown-menu">
+        
+        
+         <div class="dropdown-item"><strong>Automatic translations</strong></div>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-4-compare%2Ftutorial.html&edit-text=&act=url" title="">
+                Français
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-4-compare%2Ftutorial.html&edit-text=&act=url" title="">
+                日本語
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-4-compare%2Ftutorial.html&edit-text=&act=url" title="">
+                Español
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-4-compare%2Ftutorial.html&edit-text=&act=url" title="">
+                Português
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-4-compare%2Ftutorial.html&edit-text=&act=url" title="">
+                العربية
+            </a>
+        
+        <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-4-compare%2Ftutorial.html&edit-text=&act=url" title="">
+            More Languages
+        </a>
+        </ul>
+    </span>
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+            
+
+
+<a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://zenodo.org/record/7319925">
+    <i class="far fa-copy" aria-hidden="true"></i>
+</a>
+
+
+            
+
+
+    <a class="btn btn-default topic-icon" href="/training-material/topics/single-cell/tutorials/bulk-music-4-compare/workflows/" title="Workflows" alt="Comparing inferred cell compositions using MuSiC deconvolution workflows">
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
+    </a>
+
+
+            
+              
+
+
+    <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
+        <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
+    </a>
+    <ul class="dropdown-menu">
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
+            Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
+            Galaxy@GenOuest
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://humancellatlas.usegalaxy.eu/" title="Human Cell Atlas">
+            Human Cell Atlas
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
+            Plant Anaylsis Workbench
+        </a>
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://singlecell.usegalaxy.eu/" title="Single Cell Omics workbench">
+            Single Cell Omics workbench
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
+        </a>
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.eu" title="UseGalaxy.eu">
+            UseGalaxy.eu
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    </ul>
+
+
+
+            
+            </div>
+          
+          </div>
+
+          </td>
+          <td> 
+
+
+    </span>
+
+<!-- video slides -->
+
+
+</span>
+</span>
+ </td>
+          <td> 
+    <span class="btn-group">
+        <a href="/training-material/topics/single-cell/tutorials/bulk-music-4-compare/tutorial.html" class="btn btn-default" title="Follow the tutorial">
+            <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
+        </a>
+        <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Follow the tutorial in a different language">
+            <span class="sr-only">Toggle Dropdown</span>
+        </a>
+        <ul class="dropdown-menu">
+        
+        
+         <div class="dropdown-item"><strong>Automatic translations</strong></div>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-4-compare%2Ftutorial.html&edit-text=&act=url" title="">
+                Français
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-4-compare%2Ftutorial.html&edit-text=&act=url" title="">
+                日本語
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-4-compare%2Ftutorial.html&edit-text=&act=url" title="">
+                Español
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-4-compare%2Ftutorial.html&edit-text=&act=url" title="">
+                Português
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-4-compare%2Ftutorial.html&edit-text=&act=url" title="">
+                العربية
+            </a>
+        
+        <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fbulk-music-4-compare%2Ftutorial.html&edit-text=&act=url" title="">
+            More Languages
+        </a>
+        </ul>
+    </span>
+
+ </td>
+
+          
+            <td> 
+
+
+<a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://zenodo.org/record/7319925">
+    <i class="far fa-copy" aria-hidden="true"></i>
+</a>
+
+ </td>
+            <td> 
+
+
+    <a class="btn btn-default topic-icon" href="/training-material/topics/single-cell/tutorials/bulk-music-4-compare/workflows/" title="Workflows" alt="Comparing inferred cell compositions using MuSiC deconvolution workflows">
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
+    </a>
+
+ </td>
+            <td> 
+ </td>
+          
+          
+            <td> 
+
+
+    <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
+        <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
+    </a>
+    <ul class="dropdown-menu">
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
+            Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
+            Galaxy@GenOuest
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://humancellatlas.usegalaxy.eu/" title="Human Cell Atlas">
+            Human Cell Atlas
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
+            Plant Anaylsis Workbench
+        </a>
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://singlecell.usegalaxy.eu/" title="Single Cell Omics workbench">
+            Single Cell Omics workbench
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
+        </a>
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.eu" title="UseGalaxy.eu">
+            UseGalaxy.eu
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    </ul>
+
+
+ </td>
+          
+         </tr>
+         
+       
     
     
 
@@ -4559,6 +6203,10 @@
 
   
   
+    
+
+    
+    
     
 
     
@@ -5204,6 +6852,10 @@
          </tr>
          
        
+    
+    
+
+    
     
     
 
@@ -6190,6 +7842,10 @@
          </tr>
          
        
+    
+    
+
+    
     
     
 
@@ -7410,6 +9066,10 @@
     
 
     
+    
+    
+
+    
       
         
 
@@ -8028,6 +9688,10 @@
     
 
     
+    
+    
+
+    
       
         
 
@@ -8627,6 +10291,18 @@
 
     
     
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
   </tbody>
 </table>
 
@@ -8642,6 +10318,602 @@
           
           
 
+          
+          </br>
+          <div id="tutorial_list">
+          <h3> Other </h3>
+          <div class="search_box">
+            <i class="fas fa fa-search" aria-hidden="true"></i><span class="visually-hidden">search</span>
+            <input data-search-type="tutorial_title" class="search" id="tutorial_search" placeholder="Search" />
+            <span id="clear_search" title="Clear filters"> <i class="fas fa-times" aria-hidden="true"></i><span class="visually-hidden">galaxy-cross</span> </span>
+          </div></br>
+          Assorted tutorials </br></br>
+          <table class="table table-responsive table-striped">
+  <thead>
+    <tr>
+      <th>Lesson</th>
+      <th title="Lecture for this training. May include a video version using automated text-to-speech.">Slides</th>
+      <th title="Practical tutorial guiding you through an analysis step by step.">Hands-on</th>
+      <th title="Recordings of various instructors teaching this tutorial. May use an outdated version of the tutorial.">Recordings</th>
+
+      
+      <th title="Datasets used in this tutorial, available from Zenodo.">Input dataset</th>
+      <th title="Galaxy workflows used in this tutorial.">Workflows</th>
+      
+
+      
+      <th title="List of public Galaxies on which this tutorial can be performed. ">Galaxy servers</th>
+      
+    </tr>
+  </thead>
+  <tbody class="list">
+
+  
+  
+    
+
+    
+      
+        
+
+        <tr>
+          <td class="tutorial_title">
+            
+            
+            <a href="/training-material/topics/single-cell/tutorials/scrna-case_cell-cycle/tutorial.html">
+                Removing the effects of the cell cycle
+            </a>
+            
+
+
+          <div class="">
+          
+          
+          </div>
+
+          <div class="duplicate">
+          
+            <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
+            
+
+
+    </span>
+
+<!-- video slides -->
+
+
+</span>
+</span>
+
+            
+    <span class="btn-group">
+        <a href="/training-material/topics/single-cell/tutorials/scrna-case_cell-cycle/tutorial.html" class="btn btn-default" title="Follow the tutorial">
+            <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
+        </a>
+        <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Follow the tutorial in a different language">
+            <span class="sr-only">Toggle Dropdown</span>
+        </a>
+        <ul class="dropdown-menu">
+        
+        
+         <div class="dropdown-item"><strong>Automatic translations</strong></div>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fscrna-case_cell-cycle%2Ftutorial.html&edit-text=&act=url" title="">
+                Français
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fscrna-case_cell-cycle%2Ftutorial.html&edit-text=&act=url" title="">
+                日本語
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fscrna-case_cell-cycle%2Ftutorial.html&edit-text=&act=url" title="">
+                Español
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fscrna-case_cell-cycle%2Ftutorial.html&edit-text=&act=url" title="">
+                Português
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fscrna-case_cell-cycle%2Ftutorial.html&edit-text=&act=url" title="">
+                العربية
+            </a>
+        
+        <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fscrna-case_cell-cycle%2Ftutorial.html&edit-text=&act=url" title="">
+            More Languages
+        </a>
+        </ul>
+    </span>
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+            
+
+
+<a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://zenodo.org/record/7311628/">
+    <i class="far fa-copy" aria-hidden="true"></i>
+</a>
+
+
+            
+
+
+    <a class="btn btn-default topic-icon" href="/training-material/topics/single-cell/tutorials/scrna-case_cell-cycle/workflows/" title="Workflows" alt="Removing the effects of the cell cycle workflows">
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
+    </a>
+
+
+            
+              
+
+
+    <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
+        <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
+    </a>
+    <ul class="dropdown-menu">
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://humancellatlas.usegalaxy.eu/" title="Human Cell Atlas">
+            Human Cell Atlas
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.org.au" title="UseGalaxy.org.au">
+            UseGalaxy.org.au
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    </ul>
+
+
+
+            
+            </div>
+          
+          </div>
+
+          </td>
+          <td> 
+
+
+    </span>
+
+<!-- video slides -->
+
+
+</span>
+</span>
+ </td>
+          <td> 
+    <span class="btn-group">
+        <a href="/training-material/topics/single-cell/tutorials/scrna-case_cell-cycle/tutorial.html" class="btn btn-default" title="Follow the tutorial">
+            <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
+        </a>
+        <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Follow the tutorial in a different language">
+            <span class="sr-only">Toggle Dropdown</span>
+        </a>
+        <ul class="dropdown-menu">
+        
+        
+         <div class="dropdown-item"><strong>Automatic translations</strong></div>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fscrna-case_cell-cycle%2Ftutorial.html&edit-text=&act=url" title="">
+                Français
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fscrna-case_cell-cycle%2Ftutorial.html&edit-text=&act=url" title="">
+                日本語
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fscrna-case_cell-cycle%2Ftutorial.html&edit-text=&act=url" title="">
+                Español
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fscrna-case_cell-cycle%2Ftutorial.html&edit-text=&act=url" title="">
+                Português
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fscrna-case_cell-cycle%2Ftutorial.html&edit-text=&act=url" title="">
+                العربية
+            </a>
+        
+        <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fsingle-cell%2Ftutorials%2Fscrna-case_cell-cycle%2Ftutorial.html&edit-text=&act=url" title="">
+            More Languages
+        </a>
+        </ul>
+    </span>
+
+ </td>
+
+          
+            <td> 
+
+
+<a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://zenodo.org/record/7311628/">
+    <i class="far fa-copy" aria-hidden="true"></i>
+</a>
+
+ </td>
+            <td> 
+
+
+    <a class="btn btn-default topic-icon" href="/training-material/topics/single-cell/tutorials/scrna-case_cell-cycle/workflows/" title="Workflows" alt="Removing the effects of the cell cycle workflows">
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
+    </a>
+
+ </td>
+            <td> 
+ </td>
+          
+          
+            <td> 
+
+
+    <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
+        <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
+    </a>
+    <ul class="dropdown-menu">
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://humancellatlas.usegalaxy.eu/" title="Human Cell Atlas">
+            Human Cell Atlas
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.org.au" title="UseGalaxy.org.au">
+            UseGalaxy.org.au
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    </ul>
+
+
+ </td>
+          
+         </tr>
+         
+       
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+  </tbody>
+</table>
+
+
+
+          </div>
           
 
         
@@ -8702,7 +10974,7 @@
         The content of the tutorials is licensed under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. The website and infrastructure is licensed under <a rel="license" href="https://github.com/galaxyproject/training-material/blob/main/LICENSE.md">MIT</a>.
         </p>
 
-        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/eb8f771f3364bfef48927a5ca33470894c1adb8e">eb8f771f3364bfef48927a5ca33470894c1adb8e</a></p>
+        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/235516e2e8b936f1ae529cfbe99e525678becc3d">235516e2e8b936f1ae529cfbe99e525678becc3d</a></p>
     </div>
 </footer>
 
