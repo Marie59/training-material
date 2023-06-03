@@ -1119,6 +1119,7 @@
       "priority": 3,
       "tags": [
         "R",
+        "rmarkdown-notebook",
         "jupyter-notebook"
       ],
       "license": "MIT",
@@ -3572,6 +3573,7 @@
       "tags": [
         "SQL",
         "R",
+        "rmarkdown-notebook",
         "jupyter-notebook"
       ],
       "url": "/topics/data-science/tutorials/sql-r/tutorial.html",
