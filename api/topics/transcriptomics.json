@@ -228,11 +228,11 @@
       "slides": false,
       "workflows": [
         {
-          "workflow": "qc_report.ga",
+          "workflow": "rna-seq-reads-to-counts.ga",
           "tests": false
         },
         {
-          "workflow": "rna-seq-reads-to-counts.ga",
+          "workflow": "qc_report.ga",
           "tests": false
         }
       ],
@@ -1187,12 +1187,12 @@
           "tests": true
         },
         {
-          "workflow": "qc-mapping-counting.ga",
-          "tests": true
-        },
-        {
           "workflow": "qc-mapping-counting-paired-and-single.ga",
           "tests": false
+        },
+        {
+          "workflow": "qc-mapping-counting.ga",
+          "tests": true
         }
       ],
       "tools": [
