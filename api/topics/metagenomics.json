@@ -230,19 +230,15 @@
       "slides": false,
       "workflows": [
         {
+          "workflow": "workflow6_alpha_diversity.ga",
+          "tests": false
+        },
+        {
           "workflow": "workflow2_data_cleaning.ga",
           "tests": false
         },
         {
-          "workflow": "workflow7_beta_diversity.ga",
-          "tests": false
-        },
-        {
           "workflow": "workflow5_otu_clustering.ga",
-          "tests": false
-        },
-        {
-          "workflow": "workflow6_alpha_diversity.ga",
           "tests": false
         },
         {
@@ -255,6 +251,10 @@
         },
         {
           "workflow": "workflow3_classification.ga",
+          "tests": false
+        },
+        {
+          "workflow": "workflow7_beta_diversity.ga",
           "tests": false
         }
       ],
@@ -430,12 +430,12 @@
       "slides": false,
       "workflows": [
         {
-          "workflow": "amplicon.ga",
-          "tests": true
-        },
-        {
           "workflow": "wgs-worklow.ga",
           "tests": false
+        },
+        {
+          "workflow": "amplicon.ga",
+          "tests": true
         }
       ],
       "tools": [
@@ -624,11 +624,11 @@
       "slides": false,
       "workflows": [
         {
-          "workflow": "metagenomics_assembly_tutorial_workflow.ga",
+          "workflow": "workflow-generate-dataset-for-assembly-tutorial.ga",
           "tests": false
         },
         {
-          "workflow": "workflow-generate-dataset-for-assembly-tutorial.ga",
+          "workflow": "metagenomics_assembly_tutorial_workflow.ga",
           "tests": false
         }
       ],
@@ -1094,11 +1094,11 @@
       "slides": false,
       "workflows": [
         {
-          "workflow": "workflow1_preprocessing.ga",
+          "workflow": "workflow3_functional_information_quick.ga",
           "tests": false
         },
         {
-          "workflow": "workflow3_functional_information_quick.ga",
+          "workflow": "workflow1_preprocessing.ga",
           "tests": false
         },
         {

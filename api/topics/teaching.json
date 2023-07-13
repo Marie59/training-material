@@ -84,17 +84,9 @@
       "slides": false,
       "quiz": [
         {
-          "id": "integrate_formative_assessment.yaml",
-          "path": "topics/teaching/tutorials/assessment/quiz/integrate_formative_assessment.yaml",
-          "title": "How to integrate the result of formative assessment / feedback in your course?",
-          "contributors": [
-            "bebatut"
-          ]
-        },
-        {
-          "id": "frequency_formative_assessment.yaml",
-          "path": "topics/teaching/tutorials/assessment/quiz/frequency_formative_assessment.yaml",
-          "title": "How frequent should formative feedback be?",
+          "id": "formative_assessment.yaml",
+          "path": "topics/teaching/tutorials/assessment/quiz/formative_assessment.yaml",
+          "title": "Collecting formative assessment",
           "contributors": [
             "bebatut"
           ]
@@ -108,9 +100,17 @@
           ]
         },
         {
-          "id": "formative_assessment.yaml",
-          "path": "topics/teaching/tutorials/assessment/quiz/formative_assessment.yaml",
-          "title": "Collecting formative assessment",
+          "id": "integrate_formative_assessment.yaml",
+          "path": "topics/teaching/tutorials/assessment/quiz/integrate_formative_assessment.yaml",
+          "title": "How to integrate the result of formative assessment / feedback in your course?",
+          "contributors": [
+            "bebatut"
+          ]
+        },
+        {
+          "id": "frequency_formative_assessment.yaml",
+          "path": "topics/teaching/tutorials/assessment/quiz/frequency_formative_assessment.yaml",
+          "title": "How frequent should formative feedback be?",
           "contributors": [
             "bebatut"
           ]
@@ -1127,9 +1127,9 @@
       "slides": false,
       "quiz": [
         {
-          "id": "trainer_skills.yaml",
-          "path": "topics/teaching/tutorials/learner_participation_engagement/quiz/trainer_skills.yaml",
-          "title": "Reflect on your skills as a trainer",
+          "id": "effective_training_trainer.yaml",
+          "path": "topics/teaching/tutorials/learner_participation_engagement/quiz/effective_training_trainer.yaml",
+          "title": "What makes training effective and a good trainer?",
           "contributors": [
             "bebatut"
           ]
@@ -1143,17 +1143,17 @@
           ]
         },
         {
-          "id": "mazur_interview.yaml",
-          "path": "topics/teaching/tutorials/learner_participation_engagement/quiz/mazur_interview.yaml",
-          "title": "Reflect on Mazur's interview",
+          "id": "trainer_skills.yaml",
+          "path": "topics/teaching/tutorials/learner_participation_engagement/quiz/trainer_skills.yaml",
+          "title": "Reflect on your skills as a trainer",
           "contributors": [
             "bebatut"
           ]
         },
         {
-          "id": "effective_training_trainer.yaml",
-          "path": "topics/teaching/tutorials/learner_participation_engagement/quiz/effective_training_trainer.yaml",
-          "title": "What makes training effective and a good trainer?",
+          "id": "mazur_interview.yaml",
+          "path": "topics/teaching/tutorials/learner_participation_engagement/quiz/mazur_interview.yaml",
+          "title": "Reflect on Mazur's interview",
           "contributors": [
             "bebatut"
           ]
