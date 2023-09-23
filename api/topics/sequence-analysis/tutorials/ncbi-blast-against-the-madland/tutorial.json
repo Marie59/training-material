@@ -59,11 +59,6 @@
         "usegalaxy": "true"
       },
       {
-        "url": "https://usegalaxy.fr/",
-        "name": "UseGalaxy.fr",
-        "usegalaxy": "true"
-      },
-      {
         "url": "https://usegalaxy.org",
         "name": "UseGalaxy.org (Main)",
         "usegalaxy": "true"
@@ -78,6 +73,11 @@
       {
         "url": "https://cpt.tamu.edu/galaxy-public/",
         "name": "Center for Phage Technology (CPT)",
+        "usegalaxy": "false"
+      },
+      {
+        "url": "https://galaxy.mesocentre.uca.fr",
+        "name": "Galaxy@AuBi",
         "usegalaxy": "false"
       },
       {
