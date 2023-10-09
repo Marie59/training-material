@@ -6,29 +6,64 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>GTN Contributor: Julia Jakiela</title>
         
-            <script async defer data-domain="training.galaxyproject.org" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+            <!--
+<script async defer data-domain="training.galaxyproject.org" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+-->
+<!-- We let users opt-out, so if they've opted in, we need to append the plausible script to the body -->
+
+<script>
+var scriptElement = document.createElement("script");
+scriptElement.async = true;
+scriptElement.defer = true;
+scriptElement.setAttribute("data-domain", "training.galaxyproject.org");
+scriptElement.src = "https://plausible.galaxyproject.eu/js/plausible.js";
+
+// Appending the script element to the body
+if(localStorage.getItem('plausible-opt-out') !== 'opt-out' && navigator.doNotTrack !== "1") {
+	console.log("Plausible: opt-in");
+	// Wait for the document to be available
+	document.addEventListener("DOMContentLoaded", function(event) {
+		document.body.appendChild(scriptElement);
+	});
+}
+</script>
 
 <!-- JavaScript Error Monitoring, and performance tracking. -->
+<!--
 <script
   src="https://browser.sentry-cdn.com/7.52.1/bundle.tracing.min.js"
   integrity="sha384-muuFXKS3752PNA4rPm9Uq6BLvOfV4CXyr9MHDBPvozOJJUWLKkogEFWOIRoVps43"
   crossorigin="anonymous"
 ></script>
+-->
 <script type="text/javascript">
-Sentry.init({
-  dsn: "https://45e0ec6e4373462b92969505df37cf40@sentry.galaxyproject.org/10",
-  release: "galaxy-training-network@3050d8e5f8c30c34f3a678b3baa06e62a5a4f6d5",
-  integrations: [new Sentry.BrowserTracing(), new Sentry.Replay()],
-  sampleRate: 0.1,
-  tracesSampleRate: 0.1,
-  // Capture Replay for no sessions by default
-  replaysSessionSampleRate: 0.01,
-  // plus for 1% of sessions with an error
-  replaysOnErrorSampleRate: 0.01,
-  // PII OFF
-  sendDefaultPii: false, // Off by default but just in case.
-  environment: "production",
-});
+var scriptElement = document.createElement("script");
+scriptElement.src = "https://browser.sentry-cdn.com/7.52.1/bundle.tracing.min.js";
+scriptElement.integrity = "sha384-muuFXKS3752PNA4rPm9Uq6BLvOfV4CXyr9MHDBPvozOJJUWLKkogEFWOIRoVps43";
+scriptElement.crossOrigin = "anonymous";
+
+if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack !== "1") {
+	console.log("Sentry: opt-in");
+	// Appending the script element to the body
+	document.addEventListener("DOMContentLoaded", function(event) {
+		document.body.appendChild(scriptElement);
+	});
+		
+	Sentry.init({
+	  dsn: "https://45e0ec6e4373462b92969505df37cf40@sentry.galaxyproject.org/10",
+	  release: "galaxy-training-network@35045d856e82af8e0c407019d2b4dcef3cc68bed",
+	  integrations: [new Sentry.BrowserTracing(), new Sentry.Replay()],
+	  sampleRate: 0.1,
+	  tracesSampleRate: 0.1,
+	  // Capture Replay for no sessions by default
+	  replaysSessionSampleRate: 0.01,
+	  // plus for 1% of sessions with an error
+	  replaysOnErrorSampleRate: 0.01,
+	  // PII OFF
+	  sendDefaultPii: false, // Off by default but just in case.
+	  environment: "production",
+	});
+}
 </script>
 
         
@@ -41,8 +76,8 @@ Sentry.init({
         <link rel="preload" href="/training-material/assets/fonts/AtkinsonHyperlegible/Atkinson-Hyperlegible-Italic-102a.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" as="script" crossorigin>
         <link rel="preload" href="/training-material/assets/css/main.css?v=3" as="style">
-        <link rel='preload' href='/training-material/assets/js/bundle.theme.js?v=1696813624' as='script'>
-<link rel='preload' href='/training-material/assets/js/bundle.main.js?v=1696813624' as='script'>
+        <link rel='preload' href='/training-material/assets/js/bundle.theme.js?v=1696836656' as='script'>
+<link rel='preload' href='/training-material/assets/js/bundle.main.js?v=1696836656' as='script'>
         <link rel="stylesheet" href="/training-material/assets/css/main.css?v=3">
         <link rel="manifest" href="/training-material/manifest.json">
         <meta name="theme-color" content="#2c3143"/>
@@ -67,8 +102,8 @@ Sentry.init({
 
         
     </head>
-    <body data-spy="scroll" data-target="#toc">
-        <script src='/training-material/assets/js/bundle.theme.js?v=1696813624'></script>
+    <body data-spy="scroll" data-target="#toc" data-brightness="auto" data-contrast="auto">
+        <script src='/training-material/assets/js/bundle.theme.js?v=1696836656'></script>
         <header>
     <nav class="navbar navbar-expand-md navbar-dark" aria-label="Site Navigation">
         <div class="container">
@@ -112,7 +147,7 @@ Sentry.init({
         </form>
         -->
 
-        <a class="dropdown-item" href="/training-material/faq" title="Check our FAQs">
+	<a class="dropdown-item" href="/training-material/faqs/index.html" title="Check our FAQs">
            <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> FAQs
         </a>
         
@@ -151,23 +186,9 @@ Sentry.init({
             </a>
         
 
-        <div class="dropdown-item">
-            <div>
-                <i class="fas fa-palette" aria-hidden="true"></i><span class="visually-hidden">gtn-theme</span> Theme
-            </div>
-
-            <div id="theme-selector" data-toggle="buttons">
-                    <button class="btn" data-theme="default">Default</button>
-                    <button class="btn" data-theme="night">Night</button>
-                    <button class="btn" data-theme="midnight">Midnight</button>
-                    <button class="btn" data-theme="rainbow">Rainbow</button>
-                    <button class="btn" data-theme="blm">✊🏿</button>
-                    <button class="btn" data-theme="progress" >🏳️‍🌈</button>
-                    <button class="btn" data-theme="halloween">🎃</button>
-                    <button class="btn" data-theme="straya">🇦🇺</button>
-            </div>
-
-        </div>
+		<a href="/training-material/preferences.html" class="dropdown-item">
+			<i class="fas fa-palette" aria-hidden="true"></i><span class="visually-hidden">gtn-theme</span> Themes have moved <span class="badge badge-secondary">New</span>
+		</a>
 
         <div class="dropdown-item">
             <div>
@@ -316,10 +337,79 @@ Sentry.init({
                 
 		
                 </p>
+				
 
 				
 				<h3>Tutorials</h3>
 				<ul>
+				
+					<li>
+						
+						
+						<a href="/training-material/topics/fair">
+							FAIR Data, Workflows, and Research
+						</a>
+						/
+						<a href="/training-material//topics/fair/tutorials/bioimage-metadata/tutorial.html">
+						FAIR Bioimage Metadata
+						</a>
+						
+						
+	<abbr title="This person wrote the bulk of the training material, they may have done the analysis, built the workflow, and wrote the text themselves.">✍️</abbr>
+
+
+					</li>
+				
+					<li>
+						
+						
+						<a href="/training-material/topics/fair">
+							FAIR Data, Workflows, and Research
+						</a>
+						/
+						<a href="/training-material//topics/fair/tutorials/bioimage-REMBI/tutorial.html">
+						REMBI - Recommended Metadata for Biological Images – metadata guidelines for bioimaging data
+						</a>
+						
+						
+	<abbr title="This person wrote the bulk of the training material, they may have done the analysis, built the workflow, and wrote the text themselves.">✍️</abbr>
+
+
+					</li>
+				
+					<li>
+						
+						
+						<a href="/training-material/topics/imaging">
+							Imaging
+						</a>
+						/
+						<a href="/training-material//topics/imaging/tutorials/bioimage-metadata/tutorial.html">
+						FAIR Bioimage Metadata
+						</a>
+						
+						
+	<abbr title="This person wrote the bulk of the training material, they may have done the analysis, built the workflow, and wrote the text themselves.">✍️</abbr>
+
+
+					</li>
+				
+					<li>
+						
+						
+						<a href="/training-material/topics/imaging">
+							Imaging
+						</a>
+						/
+						<a href="/training-material//topics/imaging/tutorials/bioimage-REMBI/tutorial.html">
+						REMBI - Recommended Metadata for Biological Images – metadata guidelines for bioimaging data
+						</a>
+						
+						
+	<abbr title="This person wrote the bulk of the training material, they may have done the analysis, built the workflow, and wrote the text themselves.">✍️</abbr>
+
+
+					</li>
 				
 					<li>
 						
@@ -329,7 +419,7 @@ Sentry.init({
 						</a>
 						/
 						<a href="/training-material//topics/single-cell/tutorials/scrna-case_basic-pipeline/tutorial.html">
-						Filter, Plot and Explore Single-cell RNA-seq Data
+						Filter, plot and explore single-cell RNA-seq data (Scanpy)
 						</a>
 						
 						
@@ -346,7 +436,7 @@ Sentry.init({
 						</a>
 						/
 						<a href="/training-material//topics/single-cell/tutorials/scrna-case_basic-pipeline/tutorial.html">
-						Filter, Plot and Explore Single-cell RNA-seq Data
+						Filter, plot and explore single-cell RNA-seq data (Scanpy)
 						</a>
 						
 						
@@ -363,7 +453,7 @@ Sentry.init({
 						</a>
 						/
 						<a href="/training-material//topics/single-cell/tutorials/scrna-case_alevin-combine-datasets/tutorial.html">
-						Combining datasets after pre-processing
+						Combining single cell datasets after pre-processing
 						</a>
 						
 						
@@ -379,8 +469,25 @@ Sentry.init({
 							Single Cell
 						</a>
 						/
+						<a href="/training-material//topics/single-cell/tutorials/scanpy_parameter_iterator/tutorial.html">
+						Scanpy Parameter Iterator
+						</a>
+						
+						
+	<abbr title="This person wrote the bulk of the training material, they may have done the analysis, built the workflow, and wrote the text themselves.">✍️</abbr>
+
+
+					</li>
+				
+					<li>
+						
+						
+						<a href="/training-material/topics/single-cell">
+							Single Cell
+						</a>
+						/
 						<a href="/training-material//topics/single-cell/tutorials/scrna-case_monocle3-rstudio/tutorial.html">
-						Inferring Trajectories using Monocle3 (R)
+						Inferring single cell trajectories (Monocle3, R)
 						</a>
 						
 						
@@ -414,7 +521,7 @@ Sentry.init({
 						</a>
 						/
 						<a href="/training-material//topics/single-cell/tutorials/scrna-case_JUPYTER-trajectories/tutorial.html">
-						Inferring Trajectories using Scanpy (Python)
+						Inferring single cell trajectories (Scanpy, Python)
 						</a>
 						
 						
@@ -431,7 +538,7 @@ Sentry.init({
 						</a>
 						/
 						<a href="/training-material//topics/single-cell/tutorials/scrna-case_monocle3-trajectories/tutorial.html">
-						Inferring trajectories using Monocle3
+						Inferring single cell trajectories (Monocle3)
 						</a>
 						
 						
@@ -454,7 +561,7 @@ Sentry.init({
 							Single Cell
 						</a>
 						/
-						<a href="/training-material//topics/single-cell/tutorials/scrna-case_monocle3-trajectories/slides.html">
+						<a href="/training-material//topics/single-cell/tutorials/scrna-trajectories/slides.html">
 						Trajectory analysis
 						</a>
 						
@@ -483,6 +590,26 @@ var ctx = document.getElementById('myChart').getContext('2d');
 var ctx2 = document.getElementById('slidesVsTutorials').getContext('2d');
 
 var topics = [
+
+	
+	
+	"FAIR Data, Workflows, and Research",
+
+	
+	
+	"FAIR Data, Workflows, and Research",
+
+	
+	
+	"Imaging",
+
+	
+	
+	"Imaging",
+
+	
+	
+	"Single Cell",
 
 	
 	
@@ -535,9 +662,20 @@ var slidesVsTutos = [
 
 	"Tutorials",
 
+	"Tutorials",
+
+	"Tutorials",
+
+	"Tutorials",
+
+	"Tutorials",
+
+	"Tutorials",
+
 
 	"Slides",
 	
+
 
 
 ]
@@ -629,7 +767,7 @@ var chart2 = new Chart(ctx2, {
 				The GTN infrastructure is licensed under <a rel="license" href="https://github.com/galaxyproject/training-material/blob/main/LICENSE.md">MIT</a>
 				</p>
 				<p>
-				Revision <a href="https://github.com/galaxyproject/training-material/commit/3050d8e5f8c30c34f3a678b3baa06e62a5a4f6d5">3050d8e</a>, built with Jekyll (4.3.2 | production)
+				Revision <a href="https://github.com/galaxyproject/training-material/commit/35045d856e82af8e0c407019d2b4dcef3cc68bed">35045d8</a>, built with Jekyll (4.3.2 | production)
 				</p>
 			</div>
 			<div class="col-sm-6" style="text-align: right">
@@ -657,7 +795,7 @@ var chart2 = new Chart(ctx2, {
 </footer>
 
 
-        <script src='/training-material/assets/js/bundle.main.js?v=1696813624'></script>
+        <script src='/training-material/assets/js/bundle.main.js?v=1696836656'></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     </body>
 </html>

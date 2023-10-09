@@ -133,7 +133,7 @@
       "resources": [
         "assets/js/theme.js"
       ],
-      "timestamp": 1696813624
+      "timestamp": 1696836656
     },
     "main": {
       "preload": true,
@@ -146,7 +146,7 @@
         "assets/js/list.min.js",
         "assets/js/main.js"
       ],
-      "timestamp": 1696813624
+      "timestamp": 1696836656
     }
   },
   "figurify": {
@@ -209,6 +209,7 @@
     "galaxy-save": "far fa-save",
     "galaxy-scratchbook": "fas fa-th",
     "galaxy-selector": "far fa-check-square",
+    "galaxy-show-hidden": "fas fa-eye-slash",
     "galaxy-star": "far fa-star",
     "galaxy-tags": "fas fa-tags",
     "galaxy-toggle": "fas fa-toggle-on",
@@ -288,8 +289,8 @@
   "serving": false,
   "boxify": {
   },
-  "git_revision": "3050d8e5f8c30c34f3a678b3baa06e62a5a4f6d5",
-  "git_revision_short": "3050d8e",
+  "git_revision": "35045d856e82af8e0c407019d2b4dcef3cc68bed",
+  "git_revision_short": "35045d8",
   "gtn_fork": "Marie59",
   "git_tags": [
 

@@ -6,29 +6,64 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>GTN Contributor: Saskia Hiltemann</title>
         
-            <script async defer data-domain="training.galaxyproject.org" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+            <!--
+<script async defer data-domain="training.galaxyproject.org" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+-->
+<!-- We let users opt-out, so if they've opted in, we need to append the plausible script to the body -->
+
+<script>
+var scriptElement = document.createElement("script");
+scriptElement.async = true;
+scriptElement.defer = true;
+scriptElement.setAttribute("data-domain", "training.galaxyproject.org");
+scriptElement.src = "https://plausible.galaxyproject.eu/js/plausible.js";
+
+// Appending the script element to the body
+if(localStorage.getItem('plausible-opt-out') !== 'opt-out' && navigator.doNotTrack !== "1") {
+	console.log("Plausible: opt-in");
+	// Wait for the document to be available
+	document.addEventListener("DOMContentLoaded", function(event) {
+		document.body.appendChild(scriptElement);
+	});
+}
+</script>
 
 <!-- JavaScript Error Monitoring, and performance tracking. -->
+<!--
 <script
   src="https://browser.sentry-cdn.com/7.52.1/bundle.tracing.min.js"
   integrity="sha384-muuFXKS3752PNA4rPm9Uq6BLvOfV4CXyr9MHDBPvozOJJUWLKkogEFWOIRoVps43"
   crossorigin="anonymous"
 ></script>
+-->
 <script type="text/javascript">
-Sentry.init({
-  dsn: "https://45e0ec6e4373462b92969505df37cf40@sentry.galaxyproject.org/10",
-  release: "galaxy-training-network@3050d8e5f8c30c34f3a678b3baa06e62a5a4f6d5",
-  integrations: [new Sentry.BrowserTracing(), new Sentry.Replay()],
-  sampleRate: 0.1,
-  tracesSampleRate: 0.1,
-  // Capture Replay for no sessions by default
-  replaysSessionSampleRate: 0.01,
-  // plus for 1% of sessions with an error
-  replaysOnErrorSampleRate: 0.01,
-  // PII OFF
-  sendDefaultPii: false, // Off by default but just in case.
-  environment: "production",
-});
+var scriptElement = document.createElement("script");
+scriptElement.src = "https://browser.sentry-cdn.com/7.52.1/bundle.tracing.min.js";
+scriptElement.integrity = "sha384-muuFXKS3752PNA4rPm9Uq6BLvOfV4CXyr9MHDBPvozOJJUWLKkogEFWOIRoVps43";
+scriptElement.crossOrigin = "anonymous";
+
+if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack !== "1") {
+	console.log("Sentry: opt-in");
+	// Appending the script element to the body
+	document.addEventListener("DOMContentLoaded", function(event) {
+		document.body.appendChild(scriptElement);
+	});
+		
+	Sentry.init({
+	  dsn: "https://45e0ec6e4373462b92969505df37cf40@sentry.galaxyproject.org/10",
+	  release: "galaxy-training-network@35045d856e82af8e0c407019d2b4dcef3cc68bed",
+	  integrations: [new Sentry.BrowserTracing(), new Sentry.Replay()],
+	  sampleRate: 0.1,
+	  tracesSampleRate: 0.1,
+	  // Capture Replay for no sessions by default
+	  replaysSessionSampleRate: 0.01,
+	  // plus for 1% of sessions with an error
+	  replaysOnErrorSampleRate: 0.01,
+	  // PII OFF
+	  sendDefaultPii: false, // Off by default but just in case.
+	  environment: "production",
+	});
+}
 </script>
 
         
@@ -41,8 +76,8 @@ Sentry.init({
         <link rel="preload" href="/training-material/assets/fonts/AtkinsonHyperlegible/Atkinson-Hyperlegible-Italic-102a.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" as="script" crossorigin>
         <link rel="preload" href="/training-material/assets/css/main.css?v=3" as="style">
-        <link rel='preload' href='/training-material/assets/js/bundle.theme.js?v=1696813624' as='script'>
-<link rel='preload' href='/training-material/assets/js/bundle.main.js?v=1696813624' as='script'>
+        <link rel='preload' href='/training-material/assets/js/bundle.theme.js?v=1696836656' as='script'>
+<link rel='preload' href='/training-material/assets/js/bundle.main.js?v=1696836656' as='script'>
         <link rel="stylesheet" href="/training-material/assets/css/main.css?v=3">
         <link rel="manifest" href="/training-material/manifest.json">
         <meta name="theme-color" content="#2c3143"/>
@@ -67,8 +102,8 @@ Sentry.init({
 
         
     </head>
-    <body data-spy="scroll" data-target="#toc">
-        <script src='/training-material/assets/js/bundle.theme.js?v=1696813624'></script>
+    <body data-spy="scroll" data-target="#toc" data-brightness="auto" data-contrast="auto">
+        <script src='/training-material/assets/js/bundle.theme.js?v=1696836656'></script>
         <header>
     <nav class="navbar navbar-expand-md navbar-dark" aria-label="Site Navigation">
         <div class="container">
@@ -112,7 +147,7 @@ Sentry.init({
         </form>
         -->
 
-        <a class="dropdown-item" href="/training-material/faq" title="Check our FAQs">
+	<a class="dropdown-item" href="/training-material/faqs/index.html" title="Check our FAQs">
            <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> FAQs
         </a>
         
@@ -151,23 +186,9 @@ Sentry.init({
             </a>
         
 
-        <div class="dropdown-item">
-            <div>
-                <i class="fas fa-palette" aria-hidden="true"></i><span class="visually-hidden">gtn-theme</span> Theme
-            </div>
-
-            <div id="theme-selector" data-toggle="buttons">
-                    <button class="btn" data-theme="default">Default</button>
-                    <button class="btn" data-theme="night">Night</button>
-                    <button class="btn" data-theme="midnight">Midnight</button>
-                    <button class="btn" data-theme="rainbow">Rainbow</button>
-                    <button class="btn" data-theme="blm">✊🏿</button>
-                    <button class="btn" data-theme="progress" >🏳️‍🌈</button>
-                    <button class="btn" data-theme="halloween">🎃</button>
-                    <button class="btn" data-theme="straya">🇦🇺</button>
-            </div>
-
-        </div>
+		<a href="/training-material/preferences.html" class="dropdown-item">
+			<i class="fas fa-palette" aria-hidden="true"></i><span class="visually-hidden">gtn-theme</span> Themes have moved <span class="badge badge-secondary">New</span>
+		</a>
 
         <div class="dropdown-item">
             <div>
@@ -356,6 +377,37 @@ Sentry.init({
                 
 		
                 </p>
+				
+				<h3>Editorial Roles</h3>
+				<p>This contributor has taken on additional responsibilities as an editor for the following topics. They are responsible for ensuring that the content is up to date, accurate, and follows GTN best practices.</p>
+				<ul>
+				
+					<li>
+						
+						<a href="/training-material/topics/data-science">Foundations of Data Science</a>
+						
+					</li>
+				
+					<li>
+						
+						<a href="/training-material/topics/metagenomics">Metagenomics</a>
+						
+					</li>
+				
+					<li>
+						
+						<a href="/training-material/topics/visualisation">Visualisation</a>
+						
+					</li>
+				
+					<li>
+						
+						<a href="/training-material/learning-pathways/intro-to-galaxy-and-genomics.html">Introduction to Galaxy and Sequence analysis</a>
+						
+					</li>
+				
+				</ul>
+				
 
 				
 				<h3>Tutorials</h3>
@@ -1041,6 +1093,23 @@ Sentry.init({
 
 					</li>
 				
+					<li>
+						
+						
+						<a href="/training-material/topics/single-cell">
+							Single Cell
+						</a>
+						/
+						<a href="/training-material//topics/single-cell/tutorials/scrna-case_FilterPlotandExploreRStudio/tutorial.html">
+						Filter, plot, and explore single cell RNA-seq data (Seurat, R)
+						</a>
+						
+						
+	<abbr title="This person edited the text, either for spelling and grammar, flow, GTN-fit, or other similar editing categories">📝</abbr>
+
+
+					</li>
+				
 				</ul>
 				
 
@@ -1375,22 +1444,6 @@ Sentry.init({
 				
 
 				
-				<h3>Learning Pathways</h3>
-				<ul>
-				
-					<li>
-						<a href="/training-material//learning-pathways/intro-to-galaxy-and-genomics.html">
-						Introduction to Galaxy and Sequence analysis
-						</a>
-						
-						
-	<abbr title="These individuals or organisations are responsible for maintaining this resource">🧑‍🏫</abbr>
-
-
-					</li>
-				
-				</ul>
-				
 
 
 				
@@ -1450,7 +1503,7 @@ Sentry.init({
 
 
         
-<span class="label label-default tutorial_tag" style="--color-primary: #d6d7ff; --color-darker: #babcff; --color-dimmed: #c8c9ff;">new feature</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #d0d1ff; --color-darker: #b5b7ff; --color-dimmed: #c2c4ff;">new feature</span>
 
     <hr/>
     <p class="card-text">
@@ -1519,7 +1572,7 @@ Sentry.init({
 
 
         
-<span class="label label-default tutorial_tag" style="--color-primary: #ffd56b; --color-darker: #ebbc00; --color-dimmed: #f9c800;">paper</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #ffcf33; --color-darker: #e5b800; --color-dimmed: #f3c300;">paper</span>
 
     <hr/>
     <p class="card-text">
@@ -1588,7 +1641,7 @@ Sentry.init({
 
 
         
-<span class="label label-default tutorial_tag" style="--color-primary: #ffd1ab; --color-darker: #ffb254; --color-dimmed: #ffc287;">new tutorial</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #ffca9c; --color-darker: #ffab30; --color-dimmed: #ffbb74;">new tutorial</span>
 
     <hr/>
     <p class="card-text">
@@ -1657,9 +1710,9 @@ Sentry.init({
 
 
         
-<span class="label label-default tutorial_tag" style="--color-primary: #ffd1ab; --color-darker: #ffb254; --color-dimmed: #ffc287;">new tutorial</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #ffca9c; --color-darker: #ffab30; --color-dimmed: #ffbb74;">new tutorial</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #beddff; --color-darker: #8ac8ff; --color-dimmed: #a5d2ff;">Galaxy Tips & Tricks</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #b3d8ff; --color-darker: #7dc3ff; --color-dimmed: #9aceff;">Galaxy Tips & Tricks</span>
 
     <hr/>
     <p class="card-text">
@@ -1728,9 +1781,9 @@ Sentry.init({
 
 
         
-<span class="label label-default tutorial_tag" style="--color-primary: #00f998; --color-darker: #00de87; --color-dimmed: #00eb90;">gtn infrastructure</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #00f394; --color-darker: #00d884; --color-dimmed: #00e58c;">gtn infrastructure</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #d6d7ff; --color-darker: #babcff; --color-dimmed: #c8c9ff;">new feature</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #d0d1ff; --color-darker: #b5b7ff; --color-dimmed: #c2c4ff;">new feature</span>
 
     <hr/>
     <p class="card-text">
@@ -1799,9 +1852,9 @@ Sentry.init({
 
 
         
-<span class="label label-default tutorial_tag" style="--color-primary: #00f998; --color-darker: #00de87; --color-dimmed: #00eb90;">gtn infrastructure</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #00f394; --color-darker: #00d884; --color-dimmed: #00e58c;">gtn infrastructure</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #d7d6ff; --color-darker: #bdbbff; --color-dimmed: #cac9ff;">new topic</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #d2d0ff; --color-darker: #b8b6ff; --color-dimmed: #c5c3ff;">new topic</span>
 
     <hr/>
     <p class="card-text">
@@ -1870,9 +1923,9 @@ Sentry.init({
 
 
         
-<span class="label label-default tutorial_tag" style="--color-primary: #ffd1ab; --color-darker: #ffb254; --color-dimmed: #ffc287;">new tutorial</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #ffca9c; --color-darker: #ffab30; --color-dimmed: #ffbb74;">new tutorial</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #00f1fa; --color-darker: #00d7de; --color-dimmed: #00e4ec;">contributors</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #00ebf3; --color-darker: #00d1d8; --color-dimmed: #00dee6;">contributors</span>
 
     <hr/>
     <p class="card-text">
@@ -1941,7 +1994,7 @@ Sentry.init({
 
 
         
-<span class="label label-default tutorial_tag" style="--color-primary: #d6d7ff; --color-darker: #babcff; --color-dimmed: #c8c9ff;">new feature</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #d0d1ff; --color-darker: #b5b7ff; --color-dimmed: #c2c4ff;">new feature</span>
 
     <hr/>
     <p class="card-text">
@@ -2011,9 +2064,9 @@ On every tag, we’d build a copy of the website which we would place online and
 
 
         
-<span class="label label-default tutorial_tag" style="--color-primary: #ffd1ab; --color-darker: #ffb254; --color-dimmed: #ffc287;">new tutorial</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #ffca9c; --color-darker: #ffab30; --color-dimmed: #ffbb74;">new tutorial</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #00f3e8; --color-darker: #00d8ce; --color-dimmed: #00e6db;">español</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #00ede1; --color-darker: #00d3c9; --color-dimmed: #00e0d5;">español</span>
 
     <hr/>
     <p class="card-text">
@@ -2082,17 +2135,17 @@ On every tag, we’d build a copy of the website which we would place online and
 
 
         
-<span class="label label-default tutorial_tag" style="--color-primary: #ffd1ab; --color-darker: #ffb254; --color-dimmed: #ffc287;">new tutorial</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #ffca9c; --color-darker: #ffab30; --color-dimmed: #ffbb74;">new tutorial</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #ffcbe7; --color-darker: #ffa7d8; --color-dimmed: #ffb9df;">assembly</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #ffc3e3; --color-darker: #ff9fd5; --color-dimmed: #ffb1dc;">assembly</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #00f1fa; --color-darker: #00d7de; --color-dimmed: #00e4ec;">mrsa</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #00ebf3; --color-darker: #00d1d8; --color-dimmed: #00dee6;">mrsa</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #cdd9ff; --color-darker: #a9c1ff; --color-dimmed: #bbcdff;">amr</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #c5d4ff; --color-darker: #a1bcff; --color-dimmed: #b4c8ff;">amr</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #bcdeff; --color-darker: #84c9ff; --color-dimmed: #a2d3ff;">nanopore</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #b0d9ff; --color-darker: #76c4ff; --color-dimmed: #95cfff;">nanopore</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #ffd29f; --color-darker: #feb400; --color-dimmed: #ffc370;">illumina</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #ffcb8b; --color-darker: #f8af00; --color-dimmed: #ffbc52;">illumina</span>
 
     <hr/>
     <p class="card-text">
@@ -2167,13 +2220,13 @@ JBrowse.
 
 
         
-<span class="label label-default tutorial_tag" style="--color-primary: #00f998; --color-darker: #00de87; --color-dimmed: #00eb90;">gtn infrastructure</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #00f394; --color-darker: #00d884; --color-dimmed: #00e58c;">gtn infrastructure</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #00f1fa; --color-darker: #00d7de; --color-dimmed: #00e4ec;">contributors</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #00ebf3; --color-darker: #00d1d8; --color-dimmed: #00dee6;">contributors</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #00f6ce; --color-darker: #00dab7; --color-dimmed: #00e8c2;">instructors</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #00efc8; --color-darker: #00d5b2; --color-dimmed: #00e2bd;">instructors</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #d6d7ff; --color-darker: #babcff; --color-dimmed: #c8c9ff;">new feature</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #d0d1ff; --color-darker: #b5b7ff; --color-dimmed: #c2c4ff;">new feature</span>
 
     <hr/>
     <p class="card-text">
@@ -2242,7 +2295,7 @@ JBrowse.
 
 
         
-<span class="label label-default tutorial_tag" style="--color-primary: #ffcaf4; --color-darker: #ffa3ed; --color-dimmed: #ffb7f0;">cofest</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #ffc2f2; --color-darker: #ff9bec; --color-dimmed: #ffafef;">cofest</span>
 
     <hr/>
     <p class="card-text">
@@ -2311,7 +2364,7 @@ JBrowse.
 
 
         
-<span class="label label-default tutorial_tag" style="--color-primary: #00f1f8; --color-darker: #00d7dd; --color-dimmed: #00e4eb;">event</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #00ebf2; --color-darker: #00d1d7; --color-dimmed: #00dee5;">event</span>
 
     <hr/>
     <p class="card-text">
@@ -2379,11 +2432,11 @@ JBrowse.
 
 
         
-<span class="label label-default tutorial_tag" style="--color-primary: #00f1f8; --color-darker: #00d7dd; --color-dimmed: #00e4eb;">event</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #00ebf2; --color-darker: #00d1d7; --color-dimmed: #00dee5;">event</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #ffcddb; --color-darker: #ffa9c4; --color-dimmed: #ffbbd0;">pandemic</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #ffc5d6; --color-darker: #ffa1bf; --color-dimmed: #ffb4ca;">pandemic</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #9fe4ff; --color-darker: #00d3fe; --color-dimmed: #71dbff;">remote-teaching</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #8ce0ff; --color-darker: #00cef8; --color-dimmed: #54d8ff;">remote-teaching</span>
 
     <hr/>
     <p class="card-text">
@@ -2575,6 +2628,10 @@ var topics = [
 	
 	"Visualisation",
 
+	
+	
+	"Single Cell",
+
 
 	
 	
@@ -2736,6 +2793,8 @@ var slidesVsTutos = [
 
 	"Tutorials",
 
+	"Tutorials",
+
 
 	"Slides",
 	
@@ -2822,6 +2881,7 @@ var slidesVsTutos = [
 	"News Posts",
 
 	"News Posts",
+
 
 ]
 
@@ -2912,7 +2972,7 @@ var chart2 = new Chart(ctx2, {
 				The GTN infrastructure is licensed under <a rel="license" href="https://github.com/galaxyproject/training-material/blob/main/LICENSE.md">MIT</a>
 				</p>
 				<p>
-				Revision <a href="https://github.com/galaxyproject/training-material/commit/3050d8e5f8c30c34f3a678b3baa06e62a5a4f6d5">3050d8e</a>, built with Jekyll (4.3.2 | production)
+				Revision <a href="https://github.com/galaxyproject/training-material/commit/35045d856e82af8e0c407019d2b4dcef3cc68bed">35045d8</a>, built with Jekyll (4.3.2 | production)
 				</p>
 			</div>
 			<div class="col-sm-6" style="text-align: right">
@@ -2940,7 +3000,7 @@ var chart2 = new Chart(ctx2, {
 </footer>
 
 
-        <script src='/training-material/assets/js/bundle.main.js?v=1696813624'></script>
+        <script src='/training-material/assets/js/bundle.main.js?v=1696836656'></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     </body>
 </html>
