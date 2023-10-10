@@ -133,7 +133,7 @@
       "resources": [
         "assets/js/theme.js"
       ],
-      "timestamp": 1696899990
+      "timestamp": 1696928170
     },
     "main": {
       "preload": true,
@@ -146,7 +146,7 @@
         "assets/js/list.min.js",
         "assets/js/main.js"
       ],
-      "timestamp": 1696899990
+      "timestamp": 1696928170
     }
   },
   "figurify": {
@@ -289,8 +289,8 @@
   "serving": false,
   "boxify": {
   },
-  "git_revision": "35045d856e82af8e0c407019d2b4dcef3cc68bed",
-  "git_revision_short": "35045d8",
+  "git_revision": "93c3c59e6add2313c5dc27586fc7f6936df50505",
+  "git_revision_short": "93c3c59",
   "gtn_fork": "Marie59",
   "git_tags": [
 
