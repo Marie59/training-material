@@ -6,11 +6,9 @@ layout: faq
 contributors: [shiltemann, hexylena, pavanvidem, Marie59]
 ---
 
-* Click on {% icon galaxy-selector %} **Select Items** at the top of the history panel ![Select Items button]({% link topics/galaxy-interface/images/historyItemControls.png %})
+* Click on {% icon galaxy-selector %} **Select Items** at the top of the history panel ![Select Items button]({% link topics/galaxy-interface/images/select.png %})
 * Check {% if include.datasets_description %}{{ include.datasets_description }}{% else %}all the datasets in your history you would like to include{% endif %}
 * Click **{% if include.n %}{{ include.n }}{% else %}n{% endif %} of N selected** and choose **Auto build List**
-
-  ![Select items to build collection]({% link topics/galaxy-interface/images/select.png %}){:width="15%"}
 
   ![Collection building with autobuild]({% link topics/galaxy-interface/images/autobuild_list.png %}){:width="15%"}
 
