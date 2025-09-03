@@ -1,0 +1,25 @@
+---
+title: Creating a dataset collection with autobuild
+area: collections
+box_type: tip
+layout: faq
+contributors: [shiltemann, hexylena, pavanvidem, Marie59]
+---
+
+* Click on {% icon galaxy-selector %} **Select Items** at the top of the history panel ![Select Items button]({% link topics/galaxy-interface/images/historyItemControls.png %})
+* Check {% if include.datasets_description %}{{ include.datasets_description }}{% else %}all the datasets in your history you would like to include{% endif %}
+* Click **{% if include.n %}{{ include.n }}{% else %}n{% endif %} of N selected** and choose **Auto build List**
+
+  ![Select items to build collection]({% link topics/galaxy-interface/images/select.png %}){:width="15%"}
+
+  ![Collection building with autobuild]({% link topics/galaxy-interface/images/autobuild_list.png %}){:width="15%"}
+
+* Enter a name for your collection {% if include.name %} to {{ include.name }} {% endif %}
+* Turn off **Remove file extension**
+
+  ![Put a name and remove extension]({% link topics/galaxy-interface/images/name_ext.png %}){:width="15%"}
+
+* Click **Build** to build your collection
+* Click on the checkmark icon at the top of your history again
+
+Once the collection is created, all files turn green. You can limit visible files using the eye icons in the history panel.
