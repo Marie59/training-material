@@ -218,7 +218,7 @@ Biodiversity is the **web of life** that connects land, ocean, and atmosphere. W
 - **Study terrestrial species** with GBIF's billion-record database.
 - **Visualize biodiversity patterns** and their environmental correlations.
 
-🔹 **For a deep dive into biodiversity analysis**, start with the **[Intro to Galaxy and Ecology Learning Pathway]( {% link learning-pathways/intro-to-galaxy-and-ecology.md} )**—your gateway to Galaxy's biodiversity tools and workflows.
+🔹 **For a deep dive into biodiversity analysis**, start with the **[Intro to Galaxy and Ecology Learning Pathway{% link learning-pathways/intro-to-galaxy-and-ecology.md%.md} )**—your gateway to Galaxy's biodiversity tools and workflows.
 
 🔹 **Explore specific datasets**:
 - [OBIS Marine Indicators Tutorial]( {% link topics/ecology/tutorials/obisindicators/tutorial.md %} )
