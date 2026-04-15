@@ -35,7 +35,7 @@ The ocean is a key component of the Earth’s climate system, requiring **contin
 
 ## 📌 Key Data Sources and Tools
 
-### **Argo Program**
+### Argo Program
 - **Data**: Latitude, longitude, time, water temperature, pressure, salinity, chlorophyll, oxygen, and nitrate.
 - **Tool**: [Argo Data Access (Galaxy version 0.1.15+galaxy0)](toolshed.g2.bx.psu.edu/repos/ecology/argo_getdata/argo_getdata/0.1.15+galaxy0)
 - **Tutorial**: [Analyse Argo Data](topics/climate/tutorials/argo_pangeo/tutorial.md)
