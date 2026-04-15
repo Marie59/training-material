@@ -61,7 +61,7 @@ Galaxy provides access to **atmospheric datasets, tools, and tutorials** to help
 - **Tutorials**:
   - [Sentinel-5P Data Visualisation]( {% link topics/climate/tutorials/sentinel5_data/tutorial.md%} )
   - [Pangeo Tutorial]( {% link topics/climate/tutorials/pangeo/tutorial.md%} )
-  - [Pangeo Notebook Tutorial]( {% link topics/climate/tutorials/pangeo-notebook/tutorial.md} )
+  - [Pangeo Notebook Tutorial]( {% link topics/climate/tutorials/pangeo-notebook/tutorial.md%} )
 
 #### Volcano 🌋 Use Case
 - **Data**: Subset of Sentinel-5P L2 data (e.g., April 1 to May 30, 2021) for the **Antilles region**, focusing on **La Soufrière Saint Vincent** (eruption on April 9, 2021).
