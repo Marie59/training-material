@@ -37,7 +37,7 @@ funders:
 
 > <comment-title>Climate 101 Introduction</comment-title>
 > Before diving into atmospheric data, it's important to understand the basics of climate science.
-> Check out our **[Climate 101 Tutorial](topics/climate/tutorials/climate-101/tutorial.md)** to learn about:
+> Check out our **[Climate 101 Tutorial]( {% link topics/climate/tutorials/climate-101/tutorial.md} )** to learn about:
 > - The difference between weather and climate
 > - Essential Climate Variables (ECVs)
 > - Observations, reanalysis, predictions, and projections
@@ -59,9 +59,9 @@ Galaxy provides access to **atmospheric datasets, tools, and tutorials** to help
   - **Strong Climate Connection**: Sentinel-5P data is essential for studying atmospheric components that drive climate change.
 - **Tool**: [Copernicus Data Space Ecosystem](https://usegalaxy.eu/root?tool_id=interactive_tool_copernicus_notebook)
 - **Tutorials**:
-  - [Sentinel-5P Data Visualisation](topics/climate/tutorials/sentinel5_data/tutorial.md)
-  - [Pangeo Tutorial](topics/climate/tutorials/pangeo/tutorial.md)
-  - [Pangeo Notebook Tutorial](topics/climate/tutorials/pangeo-notebook/tutorial.md)
+  - [Sentinel-5P Data Visualisation]( {% link topics/climate/tutorials/sentinel5_data/tutorial.md} )
+  - [Pangeo Tutorial]( {% link topics/climate/tutorials/pangeo/tutorial.md} )
+  - [Pangeo Notebook Tutorial]( {% link topics/climate/tutorials/pangeo-notebook/tutorial.md} )
 
 #### Volcano 🌋 Use Case
 - **Data**: Subset of Sentinel-5P L2 data (e.g., April 1 to May 30, 2021) for the **Antilles region**, focusing on **La Soufrière Saint Vincent** (eruption on April 9, 2021).
@@ -76,7 +76,7 @@ Galaxy provides access to **atmospheric datasets, tools, and tutorials** to help
   - **Features**: Includes uncertainty estimates to highlight the evolution of observing systems.
   - **Strong Climate Connection**: ERA5 is one of the most comprehensive datasets for studying past and present climate.
 - **Tool**: [Climate Data Store (Galaxy version 0.2.0)](toolshed.g2.bx.psu.edu/repos/climate/c3s/c3s/0.2.0)
-- **Tutorial**: [Panoply Tutorial](topics/climate/tutorials/panoply/tutorial.md) (for visualizing atmospheric and climate data).
+- **Tutorial**: [Panoply Tutorial]( {% link topics/climate/tutorials/panoply/tutorial.md} ) (for visualizing atmospheric and climate data).
 
 ## 🔗 Cross-Domain Connections
 
