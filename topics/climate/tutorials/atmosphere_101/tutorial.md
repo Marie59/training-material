@@ -37,7 +37,7 @@ funders:
 
 > <comment-title>Climate 101 Introduction</comment-title>
 > Before diving into atmospheric data, it's important to understand the basics of climate science.
-> Check out our **[Climate 101 Tutorial]( {% link topics/climate/tutorials/climate-101/tutorial.md} )** to learn about:
+> Check out our **[Climate 101 Tutorial]( {% link topics/climate/tutorials/climate-101/tutorial.md%} )** to learn about:
 > - The difference between weather and climate
 > - Essential Climate Variables (ECVs)
 > - Observations, reanalysis, predictions, and projections
