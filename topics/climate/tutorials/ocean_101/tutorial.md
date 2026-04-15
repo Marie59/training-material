@@ -41,6 +41,17 @@ The ocean is a key component of the Earth’s climate system, requiring **contin
 - **Tutorial**: [Analyse Argo Data](topics/climate/tutorials/argo_pangeo/tutorial.md)
 - **Workflow**: [Full Analyse Argo Data](https://earth-system.usegalaxy.eu/u/marie.josse/w/full-analyse-argo-data)
 
+### **Nitrate DMQC for Argo Floats**
+- **Description**: Focuses on **Quality Control (QC) and calibration** of nitrate sensors mounted on Argo floats. This includes **Data Management Quality Control (DMQC)** and **Qualified Control Validation (QCV)** analysis to ensure accurate nitrate measurements.
+- **Tutorial**: [Nitrate DMQC for Autonomous Platforms such as Argo Floats](https://github.com/Marie59/training-material/tree/main/topics/climate/tutorials/ocean_qcv_analysis)
+- **Workflow**: [Argo-Glider Nitrate QCV](https://usegalaxy.eu/published/workflow?id=44827462c065bae3)
+- **Tools Used**:
+  - **QCV Harmonizer**: Harmonizes vocabulary and format for input files.
+  - **ODV Collection Manager**: Creates ODV spreadsheet collections for visualization and qualification.
+  - **Ocean Data View (ODV)**: Interactive tool for visualizing and qualifying data.
+  - **ODV History Manager**: Reports QC flags and data edits.
+  - **Biogeochemical Calibration**: Calibrates nitrate using reference datasets and methods.
+
 
 ### **Copernicus Data Space Ecosystem**
 - **Data**: Sea surface topography, sea and land surface temperature, ocean and land surface color (Sentinel-3 mission).
@@ -66,7 +77,7 @@ The ocean is a key component of the Earth’s climate system, requiring **contin
 
 The following tools and resources are **also relevant to other Earth System domains**:
 
-### **Biodiversity Tools (Marine Focus)**
+### Biodiversity Tools (Marine Focus)
 - **[OBIS Occurrences](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ecology/obis_data/obis_data/0.0.2)**
   *Also listed in: [Biodiversity](topics/climate/tutorials/earth_system/tutorial.md)*
   - Access global marine biodiversity data for science and conservation.

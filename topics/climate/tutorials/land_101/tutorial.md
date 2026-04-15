@@ -98,11 +98,20 @@ This component aims at assessing **land and soil degradation**, such as:
   - [FATES Tutorial](topics/climate/tutorials/fates/tutorial.md)
 - **Strong Climate Connection**: FATES helps study how land ecosystems respond to and influence climate change.
 
+
+### 3D Trees Analysis
+A suite of tools for processing and visualizing **LiDAR point cloud data** to study forest structure, biomass, and ecosystem dynamics.
+
+- **[3DTrees: LAS/LAZ Standardization](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ecology/las_laz_standardization/las_laz_standardization/1.0.0)**: Standardize LAS/LAZ files or validate collections for consistency.
+- **[3DTrees: Potree Converter](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ecology/potree_converter/potree_converter/1.0.0)**: Convert LAS/LAZ point clouds to Potree octree format for web visualization.
+
+🔜 **Upcoming**: Public workflow and training materials for 3D tree analysis.
+
 ## 🔗 Cross-Domain Connections
 
 The following tools and resources are **also relevant to other Earth System domains**:
 
-### **Biodiversity Tools (Terrestrial Focus)**
+### Biodiversity Tools (Terrestrial Focus)
 - **[Get Species Occurrences Data](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ecology/gbif_data/gbif_data/0.9.0)**
   *Also listed in: [Biodiversity](topics/climate/tutorials/earth_system/tutorial.md)*
   - Access GBIF's global biodiversity records for terrestrial species.

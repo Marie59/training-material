@@ -82,7 +82,7 @@ Galaxy provides access to **atmospheric datasets, tools, and tutorials** to help
 
 The following atmospheric tools and resources **support climate studies** that may overlap with other domains:
 
-### **Climate Tools (Relevant to All Domains)**
+### Climate Tools (Relevant to All Domains)
 - **[Climate Data Store (ERA5)](toolshed.g2.bx.psu.edu/repos/climate/c3s/c3s/0.2.0)**
   *Relevant for: Ocean, Land, Biodiversity*
   - Hourly atmospheric, land, and ocean wave data for climate studies.

@@ -141,6 +141,7 @@ Ever wondered how scientists monitor the **hidden world beneath the waves**? Wit
 - Sea surface topography and color (Sentinel-3).
 - Marine chemistry and pollutants (EMODnet).
 - Climate impacts on marine ecosystems (Copernicus Marine Data Store).
+- Nitrate calibration and quality control for Argo floats.
 
 👉[Start your ocean data journey here](topics/climate/tutorials/ocean_101/tutorial.md) and discover how to analyze and visualize ocean data with Galaxy!
 
