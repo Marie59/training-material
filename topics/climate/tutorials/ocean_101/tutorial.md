@@ -37,7 +37,7 @@ The ocean is a key component of the Earth’s climate system, requiring **contin
 
 ### Argo Program
 - **Data**: Latitude, longitude, time, water temperature, pressure, salinity, chlorophyll, oxygen, and nitrate.
-- **Tool**: [Argo Data Access (Galaxy version 0.1.15+galaxy0)](toolshed.g2.bx.psu.edu/repos/ecology/argo_getdata/argo_getdata/0.1.15+galaxy0)
+- **Tool**: {% tool [Argo Data Access (Galaxy version 0.1.15+galaxy0)](toolshed.g2.bx.psu.edu/repos/ecology/argo_getdata/argo_getdata/0.1.15+galaxy0) %}
 - **Tutorial**: [Analyse Argo Data]( {% link topics/climate/tutorials/argo_pangeo/tutorial.md %} )
 - **Workflow**: [Full Analyse Argo Data](https://earth-system.usegalaxy.eu/u/marie.josse/w/full-analyse-argo-data)
 
@@ -69,14 +69,14 @@ The ocean is a key component of the Earth’s climate system, requiring **contin
 
 ### Copernicus Marine Data Store
 - **Data**: Ocean product catalog with ~15 variables (hindcast, current, and forecast data).
-- **Tool**: [Copernicus Marine Data Store retrieve marine data ](toolshed.g2.bx.psu.edu/repos/ecology/copernicusmarine/copernicusmarine/2.3.0+galaxy0)
+- **Tool**: {% tool [Copernicus Marine Data Store retrieve marine data ](toolshed.g2.bx.psu.edu/repos/ecology/copernicusmarine/copernicusmarine/2.3.0+galaxy0) %}
 
 ## 🔗 Cross-Domain Connections
 
 The following tools and resources are **also relevant to other Earth System domains**:
 
 ### Biodiversity Tools (Marine Focus)
-- **[OBIS Occurrences](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ecology/obis_data/obis_data/0.0.2)**
+- **{% tool [OBIS Occurrences](toolshed.g2.bx.psu.edu/repos/ecology/obis_data/obis_data/0.0.2) %}**
   *Also listed in: [Biodiversity]( {% link topics/climate/tutorials/earth_system/tutorial.md %} )*
   - Access global marine biodiversity data for science and conservation.
 
