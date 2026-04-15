@@ -69,7 +69,7 @@ The ocean is a key component of the Earth’s climate system, requiring **contin
   - [Ocean Data View (ODV) Tutorial](topics/climate/tutorials/ocean_qcv_analysis/workflows/)
 
 
-### **Copernicus Marine Data Store**
+### Copernicus Marine Data Store
 - **Data**: Ocean product catalog with ~15 variables (hindcast, current, and forecast data).
 - **Tool**: [Copernicus Marine Data Store retrieve marine data ](toolshed.g2.bx.psu.edu/repos/ecology/copernicusmarine/copernicusmarine/2.3.0+galaxy0)
 
