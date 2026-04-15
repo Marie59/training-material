@@ -41,7 +41,7 @@ The ocean is a key component of the Earth’s climate system, requiring **contin
 - **Tutorial**: [Analyse Argo Data](topics/climate/tutorials/argo_pangeo/tutorial.md)
 - **Workflow**: [Full Analyse Argo Data](https://earth-system.usegalaxy.eu/u/marie.josse/w/full-analyse-argo-data)
 
-### **Nitrate DMQC for Argo Floats**
+### Nitrate DMQC for Argo Floats
 - **Description**: Focuses on **Quality Control (QC) and calibration** of nitrate sensors mounted on Argo floats. This includes **Data Management Quality Control (DMQC)** and **Qualified Control Validation (QCV)** analysis to ensure accurate nitrate measurements.
 - **Tutorial**: [Nitrate DMQC for Autonomous Platforms such as Argo Floats](https://github.com/Marie59/training-material/tree/main/topics/climate/tutorials/ocean_qcv_analysis)
 - **Workflow**: [Argo-Glider Nitrate QCV](https://usegalaxy.eu/published/workflow?id=44827462c065bae3)
