@@ -60,7 +60,7 @@ Galaxy provides access to **atmospheric datasets, tools, and tutorials** to help
 - **Tool**: [Copernicus Data Space Ecosystem](https://usegalaxy.eu/root?tool_id=interactive_tool_copernicus_notebook)
 - **Tutorials**:
   - [Sentinel-5P Data Visualisation]( {% link topics/climate/tutorials/sentinel5_data/tutorial.md%} )
-  - [Pangeo Tutorial]( {% link topics/climate/tutorials/pangeo/tutorial.md} )
+  - [Pangeo Tutorial]( {% link topics/climate/tutorials/pangeo/tutorial.md%} )
   - [Pangeo Notebook Tutorial]( {% link topics/climate/tutorials/pangeo-notebook/tutorial.md} )
 
 #### Volcano 🌋 Use Case
