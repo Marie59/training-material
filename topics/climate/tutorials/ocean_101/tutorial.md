@@ -64,7 +64,7 @@ The ocean is a key component of the Earth’s climate system, requiring **contin
 - **Data**: Standardized, harmonized, and validated marine chemical data for European sea basins (eutrophication, contaminants).
 - **Tool**: [Ocean Data View (ODV)](https://usegalaxy.eu/root?tool_id=interactive_tool_odv)
 - **Tutorials & Workflows**:
-  - [Ocean’s Variables Study]( {% link topics/climate/tutorials/ocean-variables/tutorial.md })
+  - [Ocean’s Variables Study]{% link topics/climate/tutorials/ocean-variables/tutorial.md %d })
   - [Workflow: Ocean’s Variables Study](https://usegalaxy.eu/u/marie.josse/w/oceans-var-v2)
 
 ### Copernicus Marine Data Store
