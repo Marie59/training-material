@@ -13,7 +13,7 @@ objectives:
   - Learn how to use Galaxy tools for atmospheric data analysis
   - Explore the strong connections between atmospheric data and climate studies
   - Access tutorials for visualizing and analyzing atmospheric data
-time_estimation: 1H30
+time_estimation: 1H
 key_points:
   - Atmosphere as a layer of gas around the Earth, strongly connected to climate
   - Monitoring atmospheric composition with Sentinel-5P
