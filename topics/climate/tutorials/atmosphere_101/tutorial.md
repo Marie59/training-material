@@ -76,7 +76,7 @@ Galaxy provides access to **atmospheric datasets, tools, and tutorials** to help
   - **Features**: Includes uncertainty estimates to highlight the evolution of observing systems.
   - **Strong Climate Connection**: ERA5 is one of the most comprehensive datasets for studying past and present climate.
 - **Tool**: [Climate Data Store (Galaxy version 0.2.0)](toolshed.g2.bx.psu.edu/repos/climate/c3s/c3s/0.2.0)
-- **Tutorial**: [Panoply Tutorial]( {% link topics/climate/tutorials/panoply/tutorial.md} ) (for visualizing atmospheric and climate data).
+- **Tutorial**: [Panoply Tutorial]( {% link topics/climate/tutorials/panoply/tutorial.md%} ) (for visualizing atmospheric and climate data).
 
 ## 🔗 Cross-Domain Connections
 
