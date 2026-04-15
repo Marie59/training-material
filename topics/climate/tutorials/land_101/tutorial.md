@@ -113,5 +113,5 @@ The following tools and resources are **also relevant to other Earth System doma
 
 ### Biodiversity Tools (Terrestrial Focus)
 - **[Get Species Occurrences Data](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ecology/gbif_data/gbif_data/0.9.0)**
-  *Also listed in: [Biodiversity]( {% link topics/climate/tutorials/earth_system/tutorial.md} )*
+  *Also listed in: [Biodiversity]( {% link topics/climate/tutorials/earth_system/tutorial.md%} )*
   - Access GBIF's global biodiversity records for terrestrial species.
