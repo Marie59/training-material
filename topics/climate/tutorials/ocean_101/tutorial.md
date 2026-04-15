@@ -81,6 +81,6 @@ The following tools and resources are **also relevant to other Earth System doma
   - Access global marine biodiversity data for science and conservation.
 
 - **[Marine Omics Visualization Workflow](https://usegalaxy.eu/u/marie.josse/w/marine-omics-visualisation)**
-  *Also listed in: [Biodiversity]( {% link topics/climate/tutorials/earth_system/tutorial.md} )*
+  *Also listed in: [Biodiversity]( {% link topics/climate/tutorials/earth_system/tutorial.md%} )*
   - Analyze marine microbial metagenomics datasets.
 
