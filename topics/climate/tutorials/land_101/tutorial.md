@@ -37,7 +37,7 @@ funders:
 
 > <comment-title>Climate 101 Introduction</comment-title>
 > Before diving into land data, it's important to understand the basics of climate science and its connection to land surfaces.
-> Check out our **[Climate 101 Tutorial](topics/climate/tutorials/climate-101/tutorial.md)** to learn about:
+> Check out our **[Climate 101 Tutorial]( {% link topics/climate/tutorials/climate-101/tutorial.md} )** to learn about:
 > - The difference between weather and climate
 > - Essential Climate Variables (ECVs) related to land
 > - How land surfaces interact with climate systems
@@ -78,7 +78,7 @@ This component aims at assessing **land and soil degradation**, such as:
   - **Climate Relevance**: NDVI is crucial for studying vegetation changes related to climate variability.
 
 - **Tool**: [Copernicus Data Space Ecosystem](https://usegalaxy.eu/root?tool_id=interactive_tool_copernicus_notebook)
-- **Tutorial**: [From NDVI data with OpenEO to time series visualisation with Holoviews](topics/ecology/tutorials/ndvi_openeo/tutorial.md)
+- **Tutorial**: [From NDVI data with OpenEO to time series visualisation with Holoviews]( {% link topics/ecology/tutorials/ndvi_openeo/tutorial.md})
 
 
 ### QGIS (Geographical Information System)
@@ -88,14 +88,14 @@ This component aims at assessing **land and soil degradation**, such as:
   - **Strong Climate Connection**: GIS tools help analyze spatial patterns of land degradation and their climate impacts.
 
 - **Tool**: [QGIS Galaxy Interactive Tool](https://usegalaxy.eu/root?tool_id=interactive_tool_qgis)
-- **Tutorial**: [QGIS Web Feature Services](topics/ecology/tutorials/QGIS_Web_Feature_Services/tutorial.md)
+- **Tutorial**: [QGIS Web Feature Services]( {% link topics/ecology/tutorials/QGIS_Web_Feature_Services/tutorial.md} )
 
 
 ### FATES (Functionally Assembled Terrestrial Ecosystem Simulator)
 - **Purpose**: Advanced modeling of terrestrial ecosystems and their interactions with climate.
 - **Tutorials**:
   - [FATES JupyterLab Tutorial](topics/climate/tutorials/fates-jupyterlab/tutorial.md)
-  - [FATES Tutorial](topics/climate/tutorials/fates/tutorial.md)
+  - [FATES Tutorial]( {% link topics/climate/tutorials/fates/tutorial.md} )
 - **Strong Climate Connection**: FATES helps study how land ecosystems respond to and influence climate change.
 
 
@@ -113,5 +113,5 @@ The following tools and resources are **also relevant to other Earth System doma
 
 ### Biodiversity Tools (Terrestrial Focus)
 - **[Get Species Occurrences Data](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ecology/gbif_data/gbif_data/0.9.0)**
-  *Also listed in: [Biodiversity](topics/climate/tutorials/earth_system/tutorial.md)*
+  *Also listed in: [Biodiversity]( {% link topics/climate/tutorials/earth_system/tutorial.md} )*
   - Access GBIF's global biodiversity records for terrestrial species.
