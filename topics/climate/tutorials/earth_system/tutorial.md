@@ -11,7 +11,7 @@ objectives:
   - Discover the terminology and data sources for Earth science  
   - Learn about Earth observations, reanalysis, and visualization tools on Galaxy  
   - Explore European and French subdomains, and their relevance to climate and ecology  
-time_estimation: 1H30  
+time_estimation: 2H  
 key_points:  
   - Earth System as a complex, interconnected system  
   - Essential variables and data types (observations, reanalysis, models)  
