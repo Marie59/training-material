@@ -56,7 +56,7 @@ The ocean is a key component of the Earth’s climate system, requiring **contin
 ### Copernicus Data Space Ecosystem
 - **Data**: Sea surface topography, sea and land surface temperature, ocean and land surface color (Sentinel-3 mission).
 - **Tool**: [Copernicus Data Space Ecosystem (JupyterLab)](https://usegalaxy.eu/root?tool_id=interactive_tool_copernicus_notebook)
-- **Tutorial**: [Sentinel-5P Data Visualisation]( {% link topics/climate/tutorials/sentinel5_data/tutorial.md} )
+- **Tutorial**: [Sentinel-5P Data Visualisation]( {% link topics/climate/tutorials/sentinel5_data/tutorial.md%} )
 - **Example**: In JupyterLab, navigate to `samples > openeo > Sentinel_3.ipynb` for a Sentinel-3 data example.
 
 
