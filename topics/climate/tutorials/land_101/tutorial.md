@@ -88,7 +88,7 @@ This component aims at assessing **land and soil degradation**, such as:
   - **Strong Climate Connection**: GIS tools help analyze spatial patterns of land degradation and their climate impacts.
 
 - **Tool**: [QGIS Galaxy Interactive Tool](https://usegalaxy.eu/root?tool_id=interactive_tool_qgis)
-- **Tutorial**: [QGIS Web Feature Services]( {% link topics/ecology/tutorials/QGIS_Web_Feature_Services/tutorial.md} )
+- **Tutorial**: [QGIS Web Feature Services]( {% link topics/ecology/tutorials/QGIS_Web_Feature_Services/tutorial.md%} )
 
 
 ### FATES (Functionally Assembled Terrestrial Ecosystem Simulator)
