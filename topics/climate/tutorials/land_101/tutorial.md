@@ -95,7 +95,7 @@ This component aims at assessing **land and soil degradation**, such as:
 - **Purpose**: Advanced modeling of terrestrial ecosystems and their interactions with climate.
 - **Tutorials**:
   - [FATES JupyterLab Tutorial](topics/climate/tutorials/fates-jupyterlab/tutorial.md)
-  - [FATES Tutorial]( {% link topics/climate/tutorials/fates/tutorial.md} )
+  - [FATES Tutorial]( {% link topics/climate/tutorials/fates/tutorial.md%} )
 - **Strong Climate Connection**: FATES helps study how land ecosystems respond to and influence climate change.
 
 
