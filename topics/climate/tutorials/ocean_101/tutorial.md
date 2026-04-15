@@ -60,7 +60,7 @@ The ocean is a key component of the Earth’s climate system, requiring **contin
 - **Example**: In JupyterLab, navigate to `samples > openeo > Sentinel_3.ipynb` for a Sentinel-3 data example.
 
 
-### **EMODnet Chemistry**
+### EMODnet Chemistry
 - **Data**: Standardized, harmonized, and validated marine chemical data for European sea basins (eutrophication, contaminants).
 - **Tool**: [Ocean Data View (ODV)](https://usegalaxy.eu/root?tool_id=interactive_tool_odv)
 - **Tutorials & Workflows**:
