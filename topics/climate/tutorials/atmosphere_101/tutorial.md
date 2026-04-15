@@ -75,7 +75,7 @@ Galaxy provides access to **atmospheric datasets, tools, and tutorials** to help
 - **Data**: **ERA5 reanalysis data** providing hourly snapshots of the atmosphere, land surface, and ocean waves from **1959 onwards** (preliminary data available for 1950–1958).
   - **Features**: Includes uncertainty estimates to highlight the evolution of observing systems.
   - **Strong Climate Connection**: ERA5 is one of the most comprehensive datasets for studying past and present climate.
-- **Tool**: [Climate Data Store (Galaxy version 0.2.0)](toolshed.g2.bx.psu.edu/repos/climate/c3s/c3s/0.2.0)
+- **Tool**: {% tool [Climate Data Store (Galaxy version 0.2.0)](toolshed.g2.bx.psu.edu/repos/climate/c3s/c3s/0.2.0) %}
 - **Tutorial**: [Panoply Tutorial]( {% link topics/climate/tutorials/panoply/tutorial.md %} ) (for visualizing atmospheric and climate data).
 
 ## 🔗 Cross-Domain Connections
@@ -83,7 +83,7 @@ Galaxy provides access to **atmospheric datasets, tools, and tutorials** to help
 The following atmospheric tools and resources **support climate studies** that may overlap with other domains:
 
 ### Climate Tools (Relevant to All Domains)
-- **[Climate Data Store (ERA5)](toolshed.g2.bx.psu.edu/repos/climate/c3s/c3s/0.2.0)**
+- **{% tool [Climate Data Store (ERA5)](toolshed.g2.bx.psu.edu/repos/climate/c3s/c3s/0.2.0) %}**
   *Relevant for: Ocean, Land, Biodiversity*
   - Hourly atmospheric, land, and ocean wave data for climate studies.
 
