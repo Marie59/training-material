@@ -78,7 +78,7 @@ This component aims at assessing **land and soil degradation**, such as:
   - **Climate Relevance**: NDVI is crucial for studying vegetation changes related to climate variability.
 
 - **Tool**: [Copernicus Data Space Ecosystem](https://usegalaxy.eu/root?tool_id=interactive_tool_copernicus_notebook)
-- **Tutorial**: [From NDVI data with OpenEO to time series visualisation with Holoviews]( {% link topics/ecology/tutorials/ndvi_openeo/tutorial.md})
+- **Tutorial**: [From NDVI data with OpenEO to time series visualisation with Holoviews]( {% link topics/ecology/tutorials/ndvi_openeo/tutorial.md%})
 
 
 ### QGIS (Geographical Information System)
