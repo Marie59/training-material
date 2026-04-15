@@ -38,7 +38,7 @@ The ocean is a key component of the Earth’s climate system, requiring **contin
 ### Argo Program
 - **Data**: Latitude, longitude, time, water temperature, pressure, salinity, chlorophyll, oxygen, and nitrate.
 - **Tool**: [Argo Data Access (Galaxy version 0.1.15+galaxy0)](toolshed.g2.bx.psu.edu/repos/ecology/argo_getdata/argo_getdata/0.1.15+galaxy0)
-- **Tutorial**: [Analyse Argo Data]( {% link topics/climate/tutorials/argo_pangeo/tutorial.md} )
+- **Tutorial**: [Analyse Argo Data]( {% link topics/climate/tutorials/argo_pangeo/tutorial.md%} )
 - **Workflow**: [Full Analyse Argo Data](https://earth-system.usegalaxy.eu/u/marie.josse/w/full-analyse-argo-data)
 
 ### Nitrate DMQC for Argo Floats
