@@ -53,7 +53,7 @@ The ocean is a key component of the Earth’s climate system, requiring **contin
   - **Biogeochemical Calibration**: Calibrates nitrate using reference datasets and methods.
 
 
-### **Copernicus Data Space Ecosystem**
+### Copernicus Data Space Ecosystem
 - **Data**: Sea surface topography, sea and land surface temperature, ocean and land surface color (Sentinel-3 mission).
 - **Tool**: [Copernicus Data Space Ecosystem (JupyterLab)](https://usegalaxy.eu/root?tool_id=interactive_tool_copernicus_notebook)
 - **Tutorial**: [Sentinel-5P Data Visualisation](topics/climate/tutorials/sentinel5_data/tutorial.md)
