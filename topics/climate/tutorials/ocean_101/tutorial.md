@@ -38,12 +38,12 @@ The ocean is a key component of the Earth’s climate system, requiring **contin
 ### Argo Program
 - **Data**: Latitude, longitude, time, water temperature, pressure, salinity, chlorophyll, oxygen, and nitrate.
 - **Tool**: [Argo Data Access (Galaxy version 0.1.15+galaxy0)](toolshed.g2.bx.psu.edu/repos/ecology/argo_getdata/argo_getdata/0.1.15+galaxy0)
-- **Tutorial**: [Analyse Argo Data]( {% link topics/climate/tutorials/argo_pangeo/tutorial.md%} )
+- **Tutorial**: [Analyse Argo Data]( {% link topics/climate/tutorials/argo_pangeo/tutorial.md %} )
 - **Workflow**: [Full Analyse Argo Data](https://earth-system.usegalaxy.eu/u/marie.josse/w/full-analyse-argo-data)
 
 ### Nitrate DMQC for Argo Floats
 - **Description**: Focuses on **Quality Control (QC) and calibration** of nitrate sensors mounted on Argo floats. This includes **Data Management Quality Control (DMQC)** and **Qualified Control Validation (QCV)** analysis to ensure accurate nitrate measurements.
-- **Tutorial**: [Nitrate DMQC for Autonomous Platforms such as Argo Floats]( {% link topics/climate/tutorials/ocean_qcv_analysis/tutorial.md%} )
+- **Tutorial**: [Nitrate DMQC for Autonomous Platforms such as Argo Floats]( {% link topics/climate/tutorials/ocean_qcv_analysis/tutorial.md %} )
 - **Workflow**: [Argo-Glider Nitrate QCV](https://usegalaxy.eu/published/workflow?id=44827462c065bae3)
 - **Tools Used**:
   - **QCV Harmonizer**: Harmonizes vocabulary and format for input files.
@@ -56,7 +56,7 @@ The ocean is a key component of the Earth’s climate system, requiring **contin
 ### Copernicus Data Space Ecosystem
 - **Data**: Sea surface topography, sea and land surface temperature, ocean and land surface color (Sentinel-3 mission).
 - **Tool**: [Copernicus Data Space Ecosystem (JupyterLab)](https://usegalaxy.eu/root?tool_id=interactive_tool_copernicus_notebook)
-- **Tutorial**: [Sentinel-5P Data Visualisation]( {% link topics/climate/tutorials/sentinel5_data/tutorial.md%} )
+- **Tutorial**: [Sentinel-5P Data Visualisation]( {% link topics/climate/tutorials/sentinel5_data/tutorial.md %} )
 - **Example**: In JupyterLab, navigate to `samples > openeo > Sentinel_3.ipynb` for a Sentinel-3 data example.
 
 
@@ -64,7 +64,7 @@ The ocean is a key component of the Earth’s climate system, requiring **contin
 - **Data**: Standardized, harmonized, and validated marine chemical data for European sea basins (eutrophication, contaminants).
 - **Tool**: [Ocean Data View (ODV)](https://usegalaxy.eu/root?tool_id=interactive_tool_odv)
 - **Tutorials & Workflows**:
-  - [Ocean’s Variables Study]{% link topics/climate/tutorials/ocean-variables/tutorial.md %d })
+  - [Ocean’s Variables Study]{% link topics/climate/tutorials/ocean-variables/tutorial.md %})
   - [Workflow: Ocean’s Variables Study](https://usegalaxy.eu/u/marie.josse/w/oceans-var-v2)
 
 ### Copernicus Marine Data Store
@@ -77,10 +77,10 @@ The following tools and resources are **also relevant to other Earth System doma
 
 ### Biodiversity Tools (Marine Focus)
 - **[OBIS Occurrences](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ecology/obis_data/obis_data/0.0.2)**
-  *Also listed in: [Biodiversity]( {% link topics/climate/tutorials/earth_system/tutorial.md%} )*
+  *Also listed in: [Biodiversity]( {% link topics/climate/tutorials/earth_system/tutorial.md %} )*
   - Access global marine biodiversity data for science and conservation.
 
 - **[Marine Omics Visualization Workflow](https://usegalaxy.eu/u/marie.josse/w/marine-omics-visualisation)**
-  *Also listed in: [Biodiversity]( {% link topics/climate/tutorials/earth_system/tutorial.md%} )*
+  *Also listed in: [Biodiversity]( {% link topics/climate/tutorials/earth_system/tutorial.md %} )*
   - Analyze marine microbial metagenomics datasets.
 
