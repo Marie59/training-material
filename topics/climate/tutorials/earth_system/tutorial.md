@@ -229,9 +229,9 @@ Biodiversity is the **web of life** that connects land, ocean, and atmosphere. W
 Biodiversity data spans **land, ocean, and atmosphere**. The following tools are **also listed in their respective domain pages**:
 
 🔹 **Access tools**:
-- {% tool [OBIS Occurrences](toolshed.g2.bx.psu.edu/repos/ecology/obis_data/obis_data/0.0.2)}
+- {% tool [OBIS Occurrences](toolshed.g2.bx.psu.edu/repos/ecology/obis_data/obis_data/0.0.2) %}
 * Also listed in [Where to start with ocean data in galaxy]( {% link topics/climate/tutorials/ocean_101/tutorial.md %} )*
-- {% tool [Get Species Occurrences Data](toolshed.g2.bx.psu.edu/repos/ecology/gbif_data/gbif_data/0.9.0)}
+- {% tool [Get Species Occurrences Data](toolshed.g2.bx.psu.edu/repos/ecology/gbif_data/gbif_data/0.9.0) %}
 * Also listed in [Where to start with ocean data in galaxy]( {% link topics/climate/tutorials/ocean_101/tutorial.md %} )*
 
 
