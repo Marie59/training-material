@@ -80,7 +80,7 @@ A **test environment** to prove the feasibility of a dedicated subdomain.
 
 ## 📚 Learning Pathway: Building the European Subdomain
 
-Discover how we created the **European subdomain** on Galaxy in our dedicated **[Learning Pathway](learning-pathways/dev_tools_training.md)**. This pathway covers:
+Discover how we created the **European subdomain** on Galaxy in our dedicated **[Learning Pathway]( {% link learning-pathways/dev_tools_training.md %} )**. This pathway covers:
 
 - Set up your subdomain for your community.
 - Build a batch tool.
@@ -103,7 +103,7 @@ On Galaxy, you can explore these connections through:
 
 ## 📚 Learn More
 
-- [Climate 101 Tutorial](topics/climate/tutorials/climate-101/tutorial.md): Introduction to climate science and data.
+- [Climate 101 Tutorial]( {% link topics/climate/tutorials/climate-101/tutorial.md %} ): Introduction to climate science and data.
 - [Climate Subdomain](https://climate.usegalaxy.eu/): Dedicated platform for climate data and analysis.
 - [Ecology Subdomain](https://ecology.usegalaxy.eu/): Dedicated platform for ecological data and analysis.
 
@@ -143,7 +143,7 @@ Ever wondered how scientists monitor the **hidden world beneath the waves**? Wit
 - Climate impacts on marine ecosystems (Copernicus Marine Data Store).
 - Nitrate calibration and quality control for Argo floats.
 
-👉[Start your ocean data journey here](topics/climate/tutorials/ocean_101/tutorial.md) and discover how to analyze and visualize ocean data with Galaxy!
+👉[Start your ocean data journey here]( {% link topics/climate/tutorials/ocean_101/tutorial.md %} ) and discover how to analyze and visualize ocean data with Galaxy!
 
 
 </div>
@@ -164,7 +164,7 @@ How do scientists monitor the **invisible layer of gas** that surrounds our plan
 - **Volcanic activity** (e.g., La Soufrière eruption in the Antilles) and its climate effects
 - **Climate reanalysis** (e.g., ERA5 hourly data for past and present climate studies)
 
-💡 **New to atmospheric or climate data?** Our [Where to Start with Atmosphere Data in Galaxy tutorial](topics/climate/tutorials/atmosphere_101/tutorial.md) offer comprehensive guidance!
+💡 **New to atmospheric or climate data?** Our [Where to Start with Atmosphere Data in Galaxy tutorial]( {% link topics/climate/tutorials/atmosphere_101/tutorial.md %} ) offer comprehensive guidance!
 
 </div>
 
@@ -186,7 +186,7 @@ How do scientists monitor the **solid surface of our planet** and its interactio
 - **Ecosystem modeling** with FATES to understand climate impacts
 
 
-💡 **New to land or climate data?** Our [Where to Start with Land Data in Galaxy tutorial](topics/climate/tutorials/land_101/tutorial.md) offer comprehensive guidance!
+💡 **New to land or climate data?** Our [Where to Start with Land Data in Galaxy tutorial]( {% link topics/climate/tutorials/land_101/tutorial.md %} ) offer comprehensive guidance!
 
 </div>
 
@@ -218,11 +218,11 @@ Biodiversity is the **web of life** that connects land, ocean, and atmosphere. W
 - **Study terrestrial species** with GBIF's billion-record database.
 - **Visualize biodiversity patterns** and their environmental correlations.
 
-🔹 **For a deep dive into biodiversity analysis**, start with the **[Intro to Galaxy and Ecology Learning Pathway](learning-pathways/intro-to-galaxy-and-ecology.md)**—your gateway to Galaxy's biodiversity tools and workflows.
+🔹 **For a deep dive into biodiversity analysis**, start with the **[Intro to Galaxy and Ecology Learning Pathway]( {% link learning-pathways/intro-to-galaxy-and-ecology.md} )**—your gateway to Galaxy's biodiversity tools and workflows.
 
 🔹 **Explore specific datasets**:
-- [OBIS Marine Indicators Tutorial](topics/ecology/tutorials/obisindicators/tutorial.md)
-- [Cleaning GBIF Data Tutorial](topics/ecology/tutorials/cleaning-gbif-data/tutorial.md)
+- [OBIS Marine Indicators Tutorial]( {% link topics/ecology/tutorials/obisindicators/tutorial.md %} )
+- [Cleaning GBIF Data Tutorial]( {% link topics/ecology/tutorials/cleaning-gbif-data/tutorial.md %} )
 
 ## 🔗 Cross-Domain Connections
 
@@ -232,7 +232,7 @@ Biodiversity data spans **land, ocean, and atmosphere**. The following tools are
 - [OBIS Occurrences](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ecology/obis_data/obis_data/0.0.2)
 * Also listed in [Where to start with ocean data in galaxy](topics/climate/tutorials/ocean_101/tutorial.md)*
 - [Get Species Occurrences Data](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ecology/gbif_data/gbif_data/0.9.0)
-* Also listed in [Where to start with ocean data in galaxy](topics/climate/tutorials/ocean_101/tutorial.md)*
+* Also listed in [Where to start with ocean data in galaxy]( {% link topics/climate/tutorials/ocean_101/tutorial.md} )*
 
 
 💡 **New to biodiversity data?** The **[Ecology Subdomain](https://ecology.usegalaxy.eu/)** is your one-stop shop for all things biodiversity in Galaxy!
