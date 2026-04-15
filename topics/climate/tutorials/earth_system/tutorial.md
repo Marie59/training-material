@@ -232,7 +232,7 @@ Biodiversity data spans **land, ocean, and atmosphere**. The following tools are
 - [OBIS Occurrences](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ecology/obis_data/obis_data/0.0.2)
 * Also listed in [Where to start with ocean data in galaxy](topics/climate/tutorials/ocean_101/tutorial.md)*
 - [Get Species Occurrences Data](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ecology/gbif_data/gbif_data/0.9.0)
-* Also listed in [Where to start with ocean data in galaxy]( {% link topics/climate/tutorials/ocean_101/tutorial.md} )*
+* Also listed in [Where to start with ocean data in galaxy]( {% link topics/climate/tutorials/ocean_101/tutorial.md%} )*
 
 
 💡 **New to biodiversity data?** The **[Ecology Subdomain](https://ecology.usegalaxy.eu/)** is your one-stop shop for all things biodiversity in Galaxy!
