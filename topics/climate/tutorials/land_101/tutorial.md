@@ -13,7 +13,7 @@ objectives:
   - Learn how to use Galaxy tools for land data analysis
   - Explore the connections between land degradation and climate change
   - Access tutorials for visualizing and analyzing land data
-time_estimation: 1H30
+time_estimation: 1H
 key_points:
   - Land as a critical component of the Earth's climate system
   - Monitoring land surface changes with Sentinel-2
