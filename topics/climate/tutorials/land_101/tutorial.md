@@ -24,7 +24,7 @@ tags:
   - earth-system
   - land
   - climate
-contributors:
+contributions:
   authorship:
     - Marie59
   funding:
