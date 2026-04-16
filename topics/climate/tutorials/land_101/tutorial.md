@@ -26,12 +26,12 @@ tags:
   - climate
 contributors:
   authorship:
-  - Marie59
+    - Marie59
   funding:
-  - gaiadata
-  - gallantries
-  - fairease
-  - eurosciencegateway
+    - gaiadata
+    - gallantries
+    - fairease
+    - eurosciencegateway
 ---
 
 # 🏜️ Where to Start with Land Data in Galaxy
