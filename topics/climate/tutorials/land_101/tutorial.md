@@ -25,8 +25,9 @@ tags:
   - land
   - climate
 contributors:
+  authorship:
   - Marie59
-funders:
+  funding:
   - gaiadata
   - gallantries
   - fairease
