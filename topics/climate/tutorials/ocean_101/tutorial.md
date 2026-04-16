@@ -19,7 +19,7 @@ tags:
   - earth-system
   - ocean
   - climate 
-contributors:
+contributions:
   authorship:
     - Marie59
   funding:
