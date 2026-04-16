@@ -20,12 +20,13 @@ tags:
   - ocean
   - climate 
 contributors:
+  authorship:
   - Marie59
-funders:
-  - gaiadata
-  - gallantries
-  - fairease
-  - eurosciencegateway
+  funding:
+    - gaiadata
+    - gallantries
+    - fairease
+    - eurosciencegateway
 ---
 
 # 🌊 Where to Start with Ocean Data in Galaxy
