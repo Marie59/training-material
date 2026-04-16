@@ -24,7 +24,7 @@ tags:
   - earth-system
   - atmosphere
   - climate
-contributors:
+contributions:
   authorship:
     - Marie59
   funding:
