@@ -27,12 +27,13 @@ tags:
   - climate  
   - ecology  
 contributors:  
-  - Marie59  
-funders:
-  - gaiadata  
-  - gallantries  
-  - fairease  
-  - eurosciencegateway
+  authorship:
+    - Marie59
+  funding:
+    - gaiadata  
+    - gallantries  
+    - fairease  
+    - eurosciencegateway
 
 ---
 
