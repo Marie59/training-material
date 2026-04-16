@@ -222,7 +222,7 @@ Biodiversity is the **web of life** that connects land, ocean, and atmosphere. W
 
 🔹 **Explore specific datasets**:
 - [OBIS Marine Indicators Tutorial]( {% link topics/ecology/tutorials/obisindicators/tutorial.md %} )
-- [Cleaning GBIF Data Tutorial]( {% link topics/ecology/tutorials/cleaning-gbif-data/tutorial.md %} )
+- [Cleaning GBIF Data Tutorial]( {% link topics/ecology/tutorials/gbif_cleaning/tutorial.md %} )
 
 ## 🔗 Cross-Domain Connections
 
