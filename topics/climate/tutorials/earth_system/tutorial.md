@@ -26,7 +26,7 @@ tags:
   - biodiversity  
   - climate  
   - ecology  
-contributors:  
+contributions:  
   authorship:
     - Marie59
   funding:
