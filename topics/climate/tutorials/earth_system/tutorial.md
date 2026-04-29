@@ -144,7 +144,7 @@ Ever wondered how scientists monitor the **hidden world beneath the waves**? Wit
 - Climate impacts on marine ecosystems (Copernicus Marine Data Store).
 - Nitrate calibration and quality control for Argo floats.
 
-👉[Start your ocean data journey here]( {% link topics/climate/tutorials/ocean_101/tutorial.md %} ) and discover how to analyze and visualize ocean data with Galaxy!
+👉[Start your ocean data journey here]({% link topics/climate/tutorials/ocean_101/tutorial.md %}) and discover how to analyze and visualize ocean data with Galaxy!
 
 
 </div>
