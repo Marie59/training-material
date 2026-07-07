@@ -20,25 +20,11 @@ contributors:
 
 ---
 
+TO DO
+=> Add description general of what does the workflow and how it can be usefull (small intro of 3Dtrees here (in a more details box))
 
+=> Introduce the Data used and for what (small intro for data terra in a more details box)
 
-General introduction about the topic and then an introduction of the
-tutorial (the questions and the objectives). It is nice also to have a
-scheme to sum up the pipeline used during the tutorial. The idea is to
-give to trainees insight into the content of the tutorial and the (theoretical
-and technical) key concepts they will learn.
-
-You may want to cite some publications; this can be done by adding citations to the
-bibliography file (`tutorial.bib` file next to your `tutorial.md` file). These citations
-must be in bibtex format. If you have the DOI for the paper you wish to cite, you can
-get the corresponding bibtex entry using [doi2bib.org](https://doi2bib.org).
-
-With the example you will find in the `tutorial.bib` file, you can add a citation to
-this article here in your tutorial like this:
-{% raw %} `{% cite Batut2018 %}`{% endraw %}.
-This will be rendered like this: {% cite Batut2018 %}, and links to a
-[bibliography section](#bibliography) which will automatically be created at the end of the
-tutorial.
 
 > <agenda-title></agenda-title>
 >
@@ -51,43 +37,40 @@ tutorial.
 
 # Title for your first section
 
-Give some background about what the trainees will be doing in the section.
-Remember that many people reading your materials will likely be novices,
-so make sure to explain all the relevant concepts.
+Intro on the forest and its structure ? of IGN data. 
 
 ## Title for a subsection
-Section and subsection titles will be displayed in the tutorial index on the left side of
-the page, so try to make them informative and concise!
+Explanation on how to get them on Galaxy 
 
 ## Get data
 
 > <hands-on-title> Data Upload </hands-on-title>
 >
 > 1. Create a new history for this tutorial
-> 2. Import the files from [Zenodo]({{ page.zenodo_link }}) or from
->    the shared data library (`GTN - Material` -> `{{ page.topic_name }}`
->     -> `{{ page.title }}`):
+> 2. Import the files from [Recherche Data Gouv](https://entrepot.recherche.data.gouv.fr/) more specifically the Data register underthis [DOI](https://doi.org/10.15454/DMYWPB)
+> 3. On the left pannel go on **Upload** select **{% icon pref-cloud %} Choose Remote Files**
+> 
+> ![Image of how the upload pannel looks like](../images/3dtrees/upload_pannel.png)
 >
->    ```
->    
->    ```
->    ***TODO***: *Add the files by the ones on Zenodo here (if not added)*
+> 4. In the search bar write down "recherche", you should see the repo named **Recherche Data Gouv** appear, click on it.
+> 5. In the search bar write down "pic", you should see the repo named **Données lidar acquises par drone au pied du Pic St Loup (34)** appear, click on it.
 >
->    ***TODO***: *Remove the useless files (if added)*
+> ![Image of how the remote repo to select](../images/3dtrees/rdg_repo.png)
 >
->    {% snippet faqs/galaxy/datasets_import_via_link.md %}
+> 6. You should see 4 datasets appear, select them all and then in the bottom right click on **start**
 >
->    {% snippet faqs/galaxy/datasets_import_from_data_library.md %}
+> ![Image of how the data to upload](../images/3dtrees/data_upload.png)
 >
-> 3. Rename the datasets
-> 4. Check that the datatype
+> 7. The 4 datasets should appear into your history (in yellow when uploading) in green
 >
->    {% snippet faqs/galaxy/datasets_change_datatype.md datatype="datatypes" %}
+> ![Image of how the data to uploading in the history](../images/3dtrees/data_inhistory.png)
 >
-> 5. Add to each database a tag corresponding to ...
->
->    {% snippet faqs/galaxy/datasets_add_tag.md %}
->
+> > <tip-title>las format</tip-title>
+> > 8. Check that the datatype
+> >
+> >  {% snippet faqs/galaxy/datasets_change_datatype.md datatype="datatypes" %}
+> {: .tip}
+
 {: .hands_on}
 
 # Title of the section usually corresponding to a big step in the analysis
