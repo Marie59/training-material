@@ -165,6 +165,7 @@ You should have 4 new objects in your history running yellow soon turning green.
 >    - *"Operation"*: `Tile (COPC normalize + tile + subsample)`
 >        - {% icon param-file %} *"Input point clouds (LAZ/LAS)"*: `pc_standardized` (output of **3DTrees: LAS/LAZ Standardization** {% icon tool %})
 >
+> 5 new objects should appear in your history.
 >    > <comment-title> short description </comment-title>
 >    >
 >    > A comment about the tool or something else. This box can also be in the main text
@@ -197,9 +198,8 @@ You should have 4 new objects in your history running yellow soon turning green.
 >    - *"Predicted instance dimension name"*: `PredInstance`
 >    - *"Predicted semantic dimension name"*: `PredSemantic`
 >
->    ***TODO***: *Check parameter descriptions*
->
->    ***TODO***: *Consider adding a comment or tip box*
+> Your tool should look like that before running
+> ![Image of the inputs within this tool](../images/3dtrees/smartile.png)
 >
 >    > <comment-title> short description </comment-title>
 >    >
