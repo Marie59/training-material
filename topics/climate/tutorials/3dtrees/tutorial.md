@@ -39,9 +39,6 @@ TO DO
 
 Intro on the forest and its structure ? of IGN data. 
 
-## Title for a subsection
-Explanation on how to get them on Galaxy 
-
 ## Get data
 
 > <hands-on-title> Data Upload </hands-on-title>
@@ -141,15 +138,16 @@ You should have 4 new objects in your history running yellow soon turning green.
 
 ![Standardization running](../images/3dtrees/standard_run.png)
 
-## Thumbnail generation 
+# Thumbnail generation 
 
-> <hands-on-title> 3Dtrees: Overviews </hands-on-title>
+> <hands-on-title> 3D Trees Overview Generator </hands-on-title>
 >
 > Generate overview images from standardized point clouds
 >
 > 1. {% tool [3Dtrees: Overviews](toolshed.g2.bx.psu.edu/repos/bgruening/3dtrees_overviews/3dtrees_overviews/1.2.0+galaxy1) %} with the following parameters:
 >    - {% icon param-file %} *"Point Cloud Collection"*: `pc_standardized` (output of **3DTrees: LAS/LAZ Standardization** {% icon tool %})
 >
+> You should see to types of section images in your history (4 images in total have been generated)
 >    > <comment-title> short description </comment-title>
 >    >
 >    > A comment about the tool or something else. This box can also be in the main text
@@ -157,7 +155,9 @@ You should have 4 new objects in your history running yellow soon turning green.
 >
 {: .hands_on}
 
-## Instance Segmentation by SegmentAnyTree
+![Example of the overview image on the section ns](../images/3dtrees/sectionns.png)
+
+# Instance Segmentation by SegmentAnyTree
 
 > <hands-on-title> 3DTrees: SmartTile </hands-on-title>
 >
@@ -250,7 +250,7 @@ You should have 4 new objects in your history running yellow soon turning green.
 >
 {: .question}
 
-## Point cloud visualization by Potree
+# Point cloud visualization by Potree
 
 > <hands-on-title> 3Dtrees: Potree Converter </hands-on-title>
 >
