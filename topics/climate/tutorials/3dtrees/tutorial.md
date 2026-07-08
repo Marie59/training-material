@@ -70,19 +70,16 @@ Explanation on how to get them on Galaxy
 > >
 > >  {% snippet faqs/galaxy/datasets_change_datatype.md datatype="datatypes" %}
 > {: .tip}
+> 
+> 8. Build a collection 
+>
+> {% snippet faqs/galaxy/collections_autobuild_list.md %}
 {: .hands_on}
 
 
-# Title of the section usually corresponding to a big step in the analysis
+# Standardization
 
-It comes first a description of the step: some background and some theory.
-Some image can be added there to support the theory explanation:
-
-![Alternative text](../../images/image_name "Legend of the image")
-
-The idea is to keep the theory description before quite simple to focus more on the practical part.
-
-***TODO***: *Consider adding a detail box to expand the theory*
+***TODO***: *Consider adding a detail box to expand the theory and add some info here*
 
 > <details-title> More details about the theory </details-title>
 >
@@ -90,20 +87,15 @@ The idea is to keep the theory description before quite simple to focus more on 
 >
 {: .details}
 
-A big step can have several subsections or sub steps:
 
+## 3DTrees: LAS/LAZ Standardization
 
-## Sub-step with **3DTrees: LAS/LAZ Standardization**
-
-> <hands-on-title> Task description </hands-on-title>
+> <hands-on-title> Standardize individual files in collection </hands-on-title>
 >
 > 1. {% tool [3DTrees: LAS/LAZ Standardization](toolshed.g2.bx.psu.edu/repos/bgruening/3dtrees_standardization/3dtrees_standardization/1.1.0+galaxy0) %} with the following parameters:
 >    - *"Mode"*: `Single File Standardization`
 >        - {% icon param-collection %} *"Point Cloud File"*: `output` (Input dataset collection)
 >
->    ***TODO***: *Check parameter descriptions*
->
->    ***TODO***: *Consider adding a comment or tip box*
 >
 >    > <comment-title> short description </comment-title>
 >    >
@@ -128,18 +120,16 @@ A big step can have several subsections or sub steps:
 >
 {: .question}
 
-## Sub-step with **3DTrees: LAS/LAZ Standardization**
+In the same time you can do this 2nd step even if 1st one has not finished yet.
 
-> <hands-on-title> Task description </hands-on-title>
+> <hands-on-title> 3DTrees Collection Check  </hands-on-title>
+>
+> Collection-level validation and consistency check using standardization tool in collection mode
 >
 > 1. {% tool [3DTrees: LAS/LAZ Standardization](toolshed.g2.bx.psu.edu/repos/bgruening/3dtrees_standardization/3dtrees_standardization/1.1.0+galaxy0) %} with the following parameters:
 >    - *"Mode"*: `Collection Validation`
 >        - {% icon param-collection %} *"Point Cloud Collection"*: `output` (Input dataset collection)
 >
->    ***TODO***: *Check parameter descriptions*
->
->    ***TODO***: *Consider adding a comment or tip box*
->
 >    > <comment-title> short description </comment-title>
 >    >
 >    > A comment about the tool or something else. This box can also be in the main text
@@ -147,23 +137,11 @@ A big step can have several subsections or sub steps:
 >
 {: .hands_on}
 
-***TODO***: *Consider adding a question to test the learners understanding of the previous exercise*
+You should have 4 new objects in your history running yellow soon turning green.
 
-> <question-title></question-title>
->
-> 1. Question1?
-> 2. Question2?
->
-> > <solution-title></solution-title>
-> >
-> > 1. Answer for question1
-> > 2. Answer for question2
-> >
-> {: .solution}
->
-{: .question}
+![Standardization running](../images/3dtrees/standard_run.png)
 
-## Sub-step with **3DTrees: SmartTile**
+## 3DTrees: SmartTile
 
 > <hands-on-title> Task description </hands-on-title>
 >
