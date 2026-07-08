@@ -141,18 +141,30 @@ You should have 4 new objects in your history running yellow soon turning green.
 
 ![Standardization running](../images/3dtrees/standard_run.png)
 
-## 3DTrees: SmartTile
+## Thumbnail generation 
 
-> <hands-on-title> Task description </hands-on-title>
+> <hands-on-title> 3Dtrees: Overviews </hands-on-title>
+>
+> Generate overview images from standardized point clouds
+>
+> 1. {% tool [3Dtrees: Overviews](toolshed.g2.bx.psu.edu/repos/bgruening/3dtrees_overviews/3dtrees_overviews/1.2.0+galaxy1) %} with the following parameters:
+>    - {% icon param-file %} *"Point Cloud Collection"*: `pc_standardized` (output of **3DTrees: LAS/LAZ Standardization** {% icon tool %})
+>
+>    > <comment-title> short description </comment-title>
+>    >
+>    > A comment about the tool or something else. This box can also be in the main text
+>    {: .comment}
+>
+{: .hands_on}
+
+## Instance Segmentation by SegmentAnyTree
+
+> <hands-on-title> 3DTrees: SmartTile </hands-on-title>
 >
 > 1. {% tool [3DTrees: SmartTile](toolshed.g2.bx.psu.edu/repos/bgruening/3dtrees_smart_tile/3dtrees_smart_tile/2.0.1+galaxy0) %} with the following parameters:
 >    - *"Operation"*: `Tile (COPC normalize + tile + subsample)`
 >        - {% icon param-file %} *"Input point clouds (LAZ/LAS)"*: `pc_standardized` (output of **3DTrees: LAS/LAZ Standardization** {% icon tool %})
 >
->    ***TODO***: *Check parameter descriptions*
->
->    ***TODO***: *Consider adding a comment or tip box*
->
 >    > <comment-title> short description </comment-title>
 >    >
 >    > A comment about the tool or something else. This box can also be in the main text
@@ -176,44 +188,10 @@ You should have 4 new objects in your history running yellow soon turning green.
 >
 {: .question}
 
-## Sub-step with **3Dtrees: Overviews**
-
-> <hands-on-title> Task description </hands-on-title>
+> <hands-on-title> 3Dtrees: SegmentAnyTree </hands-on-title>
 >
-> 1. {% tool [3Dtrees: Overviews](toolshed.g2.bx.psu.edu/repos/bgruening/3dtrees_overviews/3dtrees_overviews/1.2.0+galaxy1) %} with the following parameters:
->    - {% icon param-file %} *"Point Cloud Collection"*: `pc_standardized` (output of **3DTrees: LAS/LAZ Standardization** {% icon tool %})
->
->    ***TODO***: *Check parameter descriptions*
->
->    ***TODO***: *Consider adding a comment or tip box*
->
->    > <comment-title> short description </comment-title>
->    >
->    > A comment about the tool or something else. This box can also be in the main text
->    {: .comment}
->
-{: .hands_on}
-
-***TODO***: *Consider adding a question to test the learners understanding of the previous exercise*
-
-> <question-title></question-title>
->
-> 1. Question1?
-> 2. Question2?
->
-> > <solution-title></solution-title>
-> >
-> > 1. Answer for question1
-> > 2. Answer for question2
-> >
-> {: .solution}
->
-{: .question}
-
-## Sub-step with **3Dtrees: SegmentAnyTree**
-
-> <hands-on-title> Task description </hands-on-title>
->
+> Deep learning tree segmentation
+> 
 > 1. {% tool [3Dtrees: SegmentAnyTree](toolshed.g2.bx.psu.edu/repos/bgruening/3dtrees_segmentanytree/3dtrees_segmentanytree/1.2.2+galaxy0) %} with the following parameters:
 >    - {% icon param-file %} *"Input Dataset"*: `output_subsampled_res2` (output of **3DTrees: SmartTile** {% icon tool %})
 >    - *"Predicted instance dimension name"*: `PredInstance`
@@ -230,25 +208,8 @@ You should have 4 new objects in your history running yellow soon turning green.
 >
 {: .hands_on}
 
-***TODO***: *Consider adding a question to test the learners understanding of the previous exercise*
 
-> <question-title></question-title>
->
-> 1. Question1?
-> 2. Question2?
->
-> > <solution-title></solution-title>
-> >
-> > 1. Answer for question1
-> > 2. Answer for question2
-> >
-> {: .solution}
->
-{: .question}
-
-## Sub-step with **3DTrees: SmartTile**
-
-> <hands-on-title> Task description </hands-on-title>
+> <hands-on-title> 3DTrees: SmartTile </hands-on-title>
 >
 > 1. {% tool [3DTrees: SmartTile](toolshed.g2.bx.psu.edu/repos/bgruening/3dtrees_smart_tile/3dtrees_smart_tile/2.0.1+galaxy0) %} with the following parameters:
 >    - *"Operation"*: `Filter (remove overlap-only instances)`
@@ -289,9 +250,11 @@ You should have 4 new objects in your history running yellow soon turning green.
 >
 {: .question}
 
-## Sub-step with **3Dtrees: Potree Converter**
+## Point cloud visualization by Potree
 
-> <hands-on-title> Task description </hands-on-title>
+> <hands-on-title> 3Dtrees: Potree Converter </hands-on-title>
+>
+> Convert segmented collection to Potree octree format
 >
 > 1. {% tool [3Dtrees: Potree Converter](toolshed.g2.bx.psu.edu/repos/bgruening/3dtrees_potree/3dtrees_potree/1.0.2+galaxy0) %} with the following parameters:
 >    - {% icon param-file %} *"Point Cloud Files"*: `output_merged_with_originals` (output of **3DTrees: SmartTile** {% icon tool %})
@@ -322,14 +285,6 @@ You should have 4 new objects in your history running yellow soon turning green.
 > {: .solution}
 >
 {: .question}
-
-
-## Re-arrange
-
-To create the template, each step of the workflow had its own subsection.
-
-***TODO***: *Re-arrange the generated subsections into sections or other subsections.
-Consider merging some hands-on boxes to have a meaningful flow of the analyses*
 
 # Conclusion
 
