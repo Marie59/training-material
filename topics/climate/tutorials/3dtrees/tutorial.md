@@ -198,7 +198,7 @@ You should have 4 new objects in your history running yellow soon turning green.
 >    - *"Predicted instance dimension name"*: `PredInstance`
 >    - *"Predicted semantic dimension name"*: `PredSemantic`
 >
-> Your tool should look like that before running
+> Your tool should look like that before running. It can take a few minutes to run.
 > ![Image of the inputs within this tool](../images/3dtrees/smartile.png)
 >
 >    > <comment-title> short description </comment-title>
@@ -220,35 +220,20 @@ You should have 4 new objects in your history running yellow soon turning green.
 >        - *"After filtering"*: `Also remap filtered dimensions to another collection`
 >            - *"Remap target files"*: `Originals and subsampled targets`
 >                - {% icon param-file %} *"Original files (LAZ/LAS)"*: `output_original_copc` (output of **3DTrees: SmartTile** {% icon tool %})
+>                - {% icon param-file %} *"Subsampled target files (LAZ/LAS)"*: `output_subsample_res1` (output of **3DTrees: SmartTile** {% icon tool %})
 >            - *"Also write one merged output (LAZ)"*: `Yes`
 >                - *"Enrich merged output with original attributes"*: `Yes`
+>                - {% icon param-file %} *"Standardization summary (optional)"*: `collection_summary` (output of **3DTrees: LAS/LAZ Standardization** {% icon tool %})
 >
->    ***TODO***: *Check parameter descriptions*
 >
->    ***TODO***: *Consider adding a comment or tip box*
->
->    > <comment-title> short description </comment-title>
+>    > <comment-title> See exactly how the tols is filled in </comment-title>
 >    >
->    > A comment about the tool or something else. This box can also be in the main text
+>    > ![Image of how to fill in the tool form step 1](../images/3dtrees/form1.png)
+>    > ![Image of how to fill in the tool form step 2](../images/3dtrees/form2.png)
+>    > ![Image of how to fill in the tool form step 3](../images/3dtrees/form3.png)
 >    {: .comment}
 >
 {: .hands_on}
-
-***TODO***: *Consider adding a question to test the learners understanding of the previous exercise*
-
-> <question-title></question-title>
->
-> 1. Question1?
-> 2. Question2?
->
-> > <solution-title></solution-title>
-> >
-> > 1. Answer for question1
-> > 2. Answer for question2
-> >
-> {: .solution}
->
-{: .question}
 
 # Point cloud visualization by Potree
 
